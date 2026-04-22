@@ -1,0 +1,18 @@
+Batasan Masalah Aplikasi Rekomendasi Resep
+Data sumber terbatas  
+Rekomendasi hanya berdasarkan dataset recipe_vectors.pkl yang sudah diproses. Resep baru di luar dataset tidak bisa otomatis masuk.
+
+Fokus pada atribut tertentu  
+Sistem hanya menampilkan nama resep, kategori, waktu masak, daftar bahan, dan skor similarity. Informasi lain seperti cara memasak, jumlah porsi, atau nilai gizi belum ditampilkan.
+
+Metode similarity sederhana  
+Perhitungan kemiripan menggunakan kombinasi cosine similarity antara vector bahan dan vector teks. Belum ada metode lain seperti deep learning atau collaborative filtering.
+
+Vector bahan global  
+Saat ini vector_bahan masih berupa embedding global per resep, bukan per bahan. Jadi detail per bahan belum bisa diberi skor numerik yang bermakna.
+
+UI berbasis web sederhana  
+Antarmuka menggunakan Flask + Bootstrap. Fitur interaktif seperti favorit, share, atau filter lanjutan belum tersedia.
+
+Cetak resep dasar  
+Fitur cetak hanya menampilkan detail resep (judul, kategori, durasi, bahan). Belum ada format cetak khusus seperti tabel nutrisi, gambar resep, atau branding.

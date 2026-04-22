@@ -1,0 +1,172 @@
+2026-04-22 05:52:38,568 [INFO] Aplikasi Flask dimulai...
+2026-04-22 05:52:38,635 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-22 05:52:38,636 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-22 05:52:38,670 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-22 05:52:41,940 [INFO] Aplikasi Flask dimulai...
+2026-04-22 05:52:41,981 [WARNING]  * Debugger is active!
+2026-04-22 05:52:41,994 [INFO]  * Debugger PIN: 145-962-512
+2026-04-22 05:52:52,192 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:52] "GET / HTTP/1.1" 200 -
+2026-04-22 05:52:52,972 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-22 05:52:53,044 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:53] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 05:52:53,332 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:53] "GET / HTTP/1.1" 200 -
+2026-04-22 05:52:53,338 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:53] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 05:52:53,349 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:53] "GET /static/manifest.json HTTP/1.1" 200 -
+2026-04-22 05:52:53,352 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:53] "GET /static/icons/icon-192.png HTTP/1.1" 200 -
+2026-04-22 05:52:53,359 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:53] "GET /static/icons/icon-512.png HTTP/1.1" 200 -
+2026-04-22 05:52:58,052 [WARNING] Resep 'tunas' tidak ditemukan dalam database.
+2026-04-22 05:52:58,053 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:58] "POST / HTTP/1.1" 200 -
+2026-04-22 05:52:58,126 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:58] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 05:52:58,326 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:58] "GET / HTTP/1.1" 200 -
+2026-04-22 05:52:58,333 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:58] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 05:52:58,337 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:58] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 05:52:58,353 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:58] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 05:52:58,362 [INFO] 127.0.0.1 - - [22/Apr/2026 05:52:58] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 05:53:15,893 [INFO] Ranking selesai untuk resep 'tumis kangkung saos tiram', top 9 rekomendasi dihasilkan.
+2026-04-22 05:53:15,896 [INFO] Resep 'tumis kangkung saos tiram' ditemukan, menampilkan hasil rekomendasi.
+2026-04-22 05:53:15,929 [INFO] 127.0.0.1 - - [22/Apr/2026 05:53:15] "POST / HTTP/1.1" 200 -
+2026-04-22 05:53:16,011 [INFO] 127.0.0.1 - - [22/Apr/2026 05:53:16] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 05:53:16,057 [INFO] 127.0.0.1 - - [22/Apr/2026 05:53:16] "GET / HTTP/1.1" 200 -
+2026-04-22 05:53:16,060 [INFO] 127.0.0.1 - - [22/Apr/2026 05:53:16] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 05:53:16,072 [INFO] 127.0.0.1 - - [22/Apr/2026 05:53:16] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 05:53:16,080 [INFO] 127.0.0.1 - - [22/Apr/2026 05:53:16] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 05:53:16,083 [INFO] 127.0.0.1 - - [22/Apr/2026 05:53:16] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 05:59:17,003 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:17] "GET / HTTP/1.1" 200 -
+2026-04-22 05:59:17,315 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:17] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 05:59:17,404 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:17] "GET / HTTP/1.1" 200 -
+2026-04-22 05:59:17,408 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:17] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 05:59:17,414 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:17] "GET /static/manifest.json HTTP/1.1" 200 -
+2026-04-22 05:59:17,425 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:17] "GET /static/icons/icon-192.png HTTP/1.1" 200 -
+2026-04-22 05:59:17,429 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:17] "GET /static/icons/icon-512.png HTTP/1.1" 200 -
+2026-04-22 05:59:17,509 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-22 05:59:28,061 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:28] "GET / HTTP/1.1" 200 -
+2026-04-22 05:59:28,448 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:28] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 05:59:28,487 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-22 05:59:28,538 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:28] "GET / HTTP/1.1" 200 -
+2026-04-22 05:59:28,540 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:28] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 05:59:28,549 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:28] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 05:59:28,560 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:28] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 05:59:28,566 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:28] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 05:59:38,775 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:38] "GET / HTTP/1.1" 200 -
+2026-04-22 05:59:39,008 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:39] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 05:59:39,014 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-22 05:59:39,135 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:39] "GET / HTTP/1.1" 200 -
+2026-04-22 05:59:39,137 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:39] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 05:59:39,150 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:39] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 05:59:39,161 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:39] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 05:59:39,164 [INFO] 127.0.0.1 - - [22/Apr/2026 05:59:39] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:00:23,087 [WARNING] Resep 'tumis' tidak ditemukan dalam database.
+2026-04-22 06:00:23,089 [INFO] 127.0.0.1 - - [22/Apr/2026 06:00:23] "POST / HTTP/1.1" 200 -
+2026-04-22 06:00:23,287 [INFO] 127.0.0.1 - - [22/Apr/2026 06:00:23] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:00:23,295 [INFO] 127.0.0.1 - - [22/Apr/2026 06:00:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-22 06:00:23,400 [INFO] 127.0.0.1 - - [22/Apr/2026 06:00:23] "GET / HTTP/1.1" 200 -
+2026-04-22 06:00:23,406 [INFO] 127.0.0.1 - - [22/Apr/2026 06:00:23] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:00:23,416 [INFO] 127.0.0.1 - - [22/Apr/2026 06:00:23] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:00:23,425 [INFO] 127.0.0.1 - - [22/Apr/2026 06:00:23] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:00:23,427 [INFO] 127.0.0.1 - - [22/Apr/2026 06:00:23] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:01:10,687 [INFO] 127.0.0.1 - - [22/Apr/2026 06:01:10] "GET / HTTP/1.1" 200 -
+2026-04-22 06:01:11,033 [INFO] 127.0.0.1 - - [22/Apr/2026 06:01:11] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:01:11,083 [INFO] 127.0.0.1 - - [22/Apr/2026 06:01:11] "GET / HTTP/1.1" 200 -
+2026-04-22 06:01:11,087 [INFO] 127.0.0.1 - - [22/Apr/2026 06:01:11] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:01:11,100 [INFO] 127.0.0.1 - - [22/Apr/2026 06:01:11] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:01:11,105 [INFO] 127.0.0.1 - - [22/Apr/2026 06:01:11] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:01:11,112 [INFO] 127.0.0.1 - - [22/Apr/2026 06:01:11] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:01:11,161 [INFO] 127.0.0.1 - - [22/Apr/2026 06:01:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-22 06:22:37,136 [INFO] Aplikasi Flask dimulai...
+2026-04-22 06:22:37,209 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-22 06:22:37,209 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-22 06:22:37,235 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-22 06:22:40,664 [INFO] Aplikasi Flask dimulai...
+2026-04-22 06:22:40,697 [WARNING]  * Debugger is active!
+2026-04-22 06:22:40,710 [INFO]  * Debugger PIN: 145-962-512
+2026-04-22 06:24:25,944 [INFO] Aplikasi Flask dimulai...
+2026-04-22 06:24:26,009 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-22 06:24:26,009 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-22 06:24:26,040 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-22 06:24:29,186 [INFO] Aplikasi Flask dimulai...
+2026-04-22 06:24:29,221 [WARNING]  * Debugger is active!
+2026-04-22 06:24:29,232 [INFO]  * Debugger PIN: 145-962-512
+2026-04-22 06:24:34,657 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:34] "GET / HTTP/1.1" 200 -
+2026-04-22 06:24:34,960 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:34] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:24:35,004 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:35] "GET / HTTP/1.1" 200 -
+2026-04-22 06:24:35,009 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:35] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:24:35,018 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:35] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:24:35,024 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:35] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:24:35,036 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:35] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:24:35,040 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:35] "GET /static/recipe_vectors.json HTTP/1.1" 200 -
+2026-04-22 06:24:43,968 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:43] "GET / HTTP/1.1" 200 -
+2026-04-22 06:24:44,021 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:44] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:24:44,076 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:44] "GET / HTTP/1.1" 200 -
+2026-04-22 06:24:44,081 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:44] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:24:44,102 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:44] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:24:44,107 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:44] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:24:44,119 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:44] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:24:44,121 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:44] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-22 06:24:46,613 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:46] "GET / HTTP/1.1" 200 -
+2026-04-22 06:24:46,656 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:46] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:24:46,712 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:46] "GET / HTTP/1.1" 200 -
+2026-04-22 06:24:46,715 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:46] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:24:46,722 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:46] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:24:46,734 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:46] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:24:46,742 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:46] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:24:46,744 [INFO] 127.0.0.1 - - [22/Apr/2026 06:24:46] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-22 06:28:41,741 [INFO] Aplikasi Flask dimulai...
+2026-04-22 06:28:41,798 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-22 06:28:41,799 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-22 06:28:41,829 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-22 06:28:45,450 [INFO] Aplikasi Flask dimulai...
+2026-04-22 06:28:45,491 [WARNING]  * Debugger is active!
+2026-04-22 06:28:45,505 [INFO]  * Debugger PIN: 145-962-512
+2026-04-22 06:28:46,726 [INFO] Ranking selesai untuk resep 'nasi goreng bakso', top 9 rekomendasi dihasilkan.
+2026-04-22 06:28:46,729 [INFO] Resep 'nasi goreng bakso' ditemukan, menampilkan hasil rekomendasi.
+2026-04-22 06:28:46,753 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:46] "POST / HTTP/1.1" 200 -
+2026-04-22 06:28:46,973 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:46] "GET /static/recommend.js HTTP/1.1" 200 -
+2026-04-22 06:28:47,034 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:47] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:28:47,038 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-22 06:28:47,432 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:47] "GET / HTTP/1.1" 200 -
+2026-04-22 06:28:47,435 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:47] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:28:47,441 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:47] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:28:47,449 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:47] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:28:47,470 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:47] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:28:47,472 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:47] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-22 06:28:53,747 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:53] "GET / HTTP/1.1" 200 -
+2026-04-22 06:28:53,872 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:53] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:28:53,931 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:53] "GET / HTTP/1.1" 200 -
+2026-04-22 06:28:53,933 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:53] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:28:53,940 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:53] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:28:53,954 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:53] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:28:53,960 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:53] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-22 06:28:53,963 [INFO] 127.0.0.1 - - [22/Apr/2026 06:28:53] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:29:03,985 [INFO] Ranking selesai untuk resep 'bolu pisang kukus mini', top 9 rekomendasi dihasilkan.
+2026-04-22 06:29:03,987 [INFO] Resep 'bolu pisang kukus mini' ditemukan, menampilkan hasil rekomendasi.
+2026-04-22 06:29:03,991 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:03] "POST / HTTP/1.1" 200 -
+2026-04-22 06:29:04,094 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:04] "[36mGET /static/recommend.js HTTP/1.1[0m" 304 -
+2026-04-22 06:29:04,099 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:04] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:29:04,169 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:04] "GET / HTTP/1.1" 200 -
+2026-04-22 06:29:04,172 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:04] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:29:04,192 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:04] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:29:04,203 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:04] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:29:04,211 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:04] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:29:04,213 [INFO] 127.0.0.1 - - [22/Apr/2026 06:29:04] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-22 06:39:50,489 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:50] "GET / HTTP/1.1" 200 -
+2026-04-22 06:39:50,569 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:50] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:39:50,631 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:50] "GET / HTTP/1.1" 200 -
+2026-04-22 06:39:50,637 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:50] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:39:50,651 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:50] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:39:50,660 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:50] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:39:50,665 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:50] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:39:50,677 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:50] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-22 06:39:54,464 [INFO] Ranking selesai untuk resep 'kue talam beras asin', top 9 rekomendasi dihasilkan.
+2026-04-22 06:39:54,466 [INFO] Resep 'kue talam beras asin' ditemukan, menampilkan hasil rekomendasi.
+2026-04-22 06:39:54,470 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:54] "POST / HTTP/1.1" 200 -
+2026-04-22 06:39:54,541 [INFO] 127.0.0.1 - - [22/Apr/2026 06:39:54] "[36mGET /static/recommend.js HTTP/1.1[0m" 304 -
+2026-04-22 06:40:00,678 [INFO] 127.0.0.1 - - [22/Apr/2026 06:40:00] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-22 06:40:00,723 [INFO] 127.0.0.1 - - [22/Apr/2026 06:40:00] "GET / HTTP/1.1" 200 -
+2026-04-22 06:40:00,729 [INFO] 127.0.0.1 - - [22/Apr/2026 06:40:00] "[33mGET /offline.html HTTP/1.1[0m" 404 -
+2026-04-22 06:40:00,744 [INFO] 127.0.0.1 - - [22/Apr/2026 06:40:00] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-22 06:40:00,748 [INFO] 127.0.0.1 - - [22/Apr/2026 06:40:00] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-22 06:40:00,753 [INFO] 127.0.0.1 - - [22/Apr/2026 06:40:00] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-22 06:40:00,771 [INFO] 127.0.0.1 - - [22/Apr/2026 06:40:00] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -

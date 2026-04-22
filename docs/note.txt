@@ -1,0 +1,42 @@
+Sistem kamu sekarang: ini adalah content-based recommendation system.
+Kamu sudah bikin vector bahan + bobot, lalu pakai cosine similarity untuk cari resep yang mirip. Itu persis definisi content-based: rekomendasi berdasarkan isi/konten resep.
+
+
+http://127.0.0.1:5000/recommend?nama_resep=tumis%20kangkung%20saos%20tiram
+
+
+--------------------
+
+ Rekomendasi yang keluar dari fungsi ranking_similarity itu memang murni berdasarkan bahan (ingredient vectors) yang sudah kamu mapping dan simpan di df["vector_bahan"].
+
+📌 Alurnya:
+
+Vector bahan → setiap resep direpresentasikan sebagai vector angka (hasil encoding/mapping bahan + bobot).
+
+Cosine similarity → dipakai untuk menghitung kedekatan antar vector.
+
+Kalau dua resep punya banyak bahan yang sama atau mirip, nilai similarity tinggi.
+
+Kalau bahannya beda jauh, similarity rendah.
+
+Ranking → hasil diurutkan dari similarity tertinggi ke terendah.
+
+Jadi sistem ini content-based recommendation: rekomendasi ditentukan oleh konten resep (bahan-bahan), bukan oleh rating user atau data interaksi.
+
+Kalau kamu lihat hasilnya, memang kadang muncul resep beda kategori tapi masih ada overlap bahan (misalnya sama-sama pakai telur, atau sama-sama tumisan). Itu wajar karena similarity dihitung dari vector bahan, bukan dari kategori atau waktu masak.
+
+👉 Jadi jawaban singkatnya: ya, rekomendasi ini benar-benar berdasarkan bahan resep yang kamu encode ke vector.
+
+
+-------------------------------------
+
+sisi data science-nya:
+Feature engineering: bahan → vektor.
+
+Similarity computation: cosine similarity.
+
+Content-based recommendation: rekomendasi berbasis atribut resep.
+
+Ranking & retrieval: urutkan hasil berdasarkan skor similarity.
+
+Evaluasi sistem: analisis kualitas rekomendasi.

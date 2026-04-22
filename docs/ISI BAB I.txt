@@ -1,0 +1,61 @@
+BAB I
+PENDAHULUAN
+
+1.1	Latar Belakang Masalah
+Kemampuan bertahan hidup merupakan hal utama dalam kehidupan manusia. Ada tiga jenis kebutuhan primer yang harus terpenuhi yaitu makanan, pakaian dan tempat tinggal. Sejalan dengan itu, kemampuan teknologi juga terus berkembang agar bisa membantu manusia memenuhi kebutuhan hidupnya agar lebih mudah. Dari tiga kebutuhan primer tersebut, pangan atau makanan adalah yang terpenting. Dengan mobilitas masyarakat yang serba cepat, kemampuan untuk mempelajari cara memasak akan menjadi hal yang cukup merepotkan. Oleh karenanya, hadirlah berbagai bentuk resep, baik dalam bentuk buku cetak hingga video tutorial di platform seperti youtube. 
+
+Resep adalah patokan atau pedoman suatu masakan yang menjelaskan secara terperinci mulai dari nama masakan, nama bahan makanan, takaran baku, proses pembuatan untuk menghasilkan kualitas baik dari segi warna, bentuk, aroma, tekstur dan rasa agar masakan tersebut disukai oleh masyarakat [1]. Salah satu platform yang cukup sering digunakan masyarakat untuk mempelajari resep adalah aplikasi seperti Cookpad dan Tasty.  Secara luas, kedua aplikasi tersebut sudah memiliki fitur yang baik dan bisa dipakai oleh user untuk menggunakan resepnya. 
+
+Namun, dalam penelitian yang dilakukan oleh penulis ditemukan beberapa permasalahan yang terjadi mulai dari navigasi yang sulit dilakukan oleh user dan pencarian resep yang masih kurang akurat serta variasi resep yang masih minim dan kurang menarik. Dari permasalahan yang ada, maka penulis membuat sebuah sistem dengan judul: “Implementasi Sistem Rekomendasi Resep Berbasis Website Menggunakan Metode Machine Learning”. 
+
+
+
+Menurut IBM, metode machine learning merupakan cabang dari kecerdasan buatan (Artificial Intelligence) dan ilmu komputer yang berfokus pada penggunaan data dan algoritma untuk meniru cara manusia belajar dan secara bertahap dapat meningkatkan akurasinya [2]. Dengan menggunakan kombinasi machine learning, sistem ini diharapkan akan membantu mempermudah proses pencarian dan rekomendasi agar lebih akurat sesuai dengan preferensi yang diinginkan oleh user. 
+
+1.2	Rumusan Masalah
+Berdasarkan latar belakang yang telah penulis jelaskan serta study case menggunakan aplikasi “Cookpad dan Tasty” maka rumusan masalah pada Tugas Akhir ini yaitu:
+a)	Navigasi sistem yang sulit dan pencarian resep yang kurang akurat, sehingga pengguna kesulitan menemukan resep yang mereka mau.
+b)	Variasi resep yang kurang variatif sehingga membuat pengguna tidak memiliki kepuasan yang baik dalam hal mendapatkan resep yang mereka inginkan.
+
+1.3	Batasan Masalah
+Berikut ini adalah beberapa batasan masalah pada sistem ini:
+a)	Sistem hanya menerima parameter pencarian rekomendasi resep berdasarkan kategori, rating dan cluster yang dimasukkan pengguna.
+b)	Sistem akan menggunakan dua sumber data, yaitu data resep yang di input kedalam sisten sebagai basis data resep dan juga data API.
+c)	Algoritma yang akan digunakan, seperti Naive Bayes, memiliki keterbatasan dalam menangani data yang sangat besar.
+
+
+
+
+
+
+1.4	Tujuan Penelitian
+Berikut ini adalah beberapa tujuan penulisan pada tugas akhir ini:
+a)	Memenuhi salah satu syarat kelulusan Strata 1 Program Studi Informatika Universitas Siber Asia. 
+b)	Menerapkan ilmu yang sudah didapat dari perkuliahan dengan memanfaatkan teknonolgi Naive Bayes dan API untuk memberikan hasil yang akurat dan cepat. 
+c)	Membuat prototype akan sistem rekomendasi resep yang menerapkan teknologi naive bayes dan API.
+d)	Menyusun informasi rinci dari perancangan sistem rekomendasi resep yang dibuat.
+
+1.5	Manfaat Penelitian
+Penulisan ini juga memberikan manfaat dari mulai manfaat bagi bidang IPTEKS, bagi Pembangunan, hingga manfaat bagi Masyarakat. Berikut ini beberapa manfaat tersebut:
+1.	Bagi IPTEKS
+Penelitian ini menggunakan teknologi Naive Bayes dan API untuk pengolahan datanya yang bisa digunakan dan diaplikasikan di bidang lain dalam teknologi.
+
+2.	Bagi Pembangunan
+Penelitian ini bisa membuka jalur bisnis untuk pengembangan industri teknologi. Terlebih sudah ada bidang bisnis sejenis yang cukup sukses seperti cookpad dan tasty.
+
+3.	Bagi Masyarakat
+Penelitian ini membantu masyarakat dalam mencari resep yang mereka mau sesuai dengan preferensi yang mereka inginkan seperti kategori (jenis masakannya), rating, dan cluster (diminati atau tidak).
+
+
+1.6	Metode Penelitian
+Dalam penyusunan tugas akhir ini dilakukan penelitian untuk memperoleh fakta dan mengumpulkan data yang diperlukan. Tahapan dalam mengumpulka data yang diperlukan yaitu dengan cara:
+1.	Hipotesa Penelitian yang Hendak diuji
+Hipotesis yang ingin diuji adalah keakuratan system yang dibangun untuk menemukan resep sesuai parameter yang dikirimkan oleh user yaitu kategori, rating dan cluster. Sistem ini akan menggunakan naïve bayes dan API sebagai bagian dalam pengelolaan data, codeigniter untuk pengeloaan back end dan bootstrap untuk pengelolaan front end.
+
+2.	Metode Pengumpulan Data
+Pengumpulan data dilakukan dengan melakukan survey yang penulis lakukan lewat aplikasi Pop Survey dengan total 28 responden. Survey ini terdiri atas 2 bagian yaitu pernyataan yang memiliki opsi [Sangat Setuju], [Setuju], [Netral], [Tidak Setuju], dan [Sangat Tidak Setuju] serta pertanyaan terbuka yang membebaskan responden untuk menyampaikan opininya secara bebas. Durasi pengisian survey ini sekitar 10 menit. Penulis melakukan survey pada tanggal 30 April 2025.  Selain itu, penulis juga melakukan pengumpulan data dengan mempelajari sumber kepustakaan seperti jurnal ilmiah dan buku yang menunjang penelitian ini.
+
+3.	Metode Analisis Data
+Metode yang dipakai pada penelitian ini adalah metode analisis kualitatif. Hal ini dilakukan karena hasil analisis didapat setelah melakukan survey yang dikaji berdasarkan user experience pada pengguna yang sebelumnya sudah menggunakan aplikasi rekomendasi resep, dalam penelitian ini study case berupa cookpad dan tasty. Hasilnya kemudian akan digunakan untuk melakukan pendekatan dalam membuat aplikasi rekomendasi resep yang bisa menjawab permasalahan yang terjadi.
+
+

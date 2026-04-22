@@ -1,0 +1,721 @@
+id_resep,nama_resep,daftar_bahan,waktu_masak,kategori,list_bahan,vector_bahan
+R0001,ayam goreng serabut,"ayam, garam, kunyit, jahe, kemiri, bawang putih, lengkuas, ketumbar, pala",90,ayam,"['kemiri', 'pala', 'jahe', 'bawang putih', 'ketumbar', 'lengkuas', 'ayam', 'garam', 'kunyit']","[0.  0.  0.  0.  0.  3.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.1 0.  0.  1.5 0.  0.  1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0002,ayam lada hitam,"ayam, bawang putih, kecap ikan, saos tiram, minyak wijen, garam, lada, telur, tepung terigu, tepung maizena",45,ayam,"['saos tiram', 'kecap ikan', 'lada', 'tepung terigu', 'minyak wijen', 'tepung maizena', 'bawang putih', 'telur', 'ayam', 'garam']","[0.  0.  0.  0.  0.  3.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.9 0.  0.9 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0003,opor ayam,"ayam, air, daun salam, garam, bawang merah, bawang putih, kemiri, kunyit, jahe, serai, daun jeruk, santan, gula pasir, minyak goreng, bawang goreng",60,ayam,"['kemiri', 'daun jeruk', 'serai', 'bawang goreng', 'air', 'jahe', 'gula pasir', 'minyak goreng', 'bawang merah', 'daun salam', 'bawang putih', 'santan', 'ayam', 'garam', 'kunyit']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.2 0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0004,tongseng ayam,"ayam, kol, tomat, cabai rawit, daun bawang, bawang merah, bawang putih, daun salam, daun jeruk, serai, lengkuas, gula merah, santan, air, kecap manis, madu, garam, gula pasir, ketumbar, merica, kemiri, jahe, kunyit",60,ayam,"['kemiri', 'daun jeruk', 'bawang putih', 'daun salam', 'air', 'jahe', 'cabai rawit', 'tomat', 'ketumbar', 'ayam', 'merica', 'kecap manis', 'serai', 'gula merah', 'kol', 'bawang merah', 'lengkuas', 'garam', 'daun bawang', 'madu', 'gula pasir', 'santan', 'kunyit']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.4 1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.1
+ 0.1 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  1.5 0.  0.  0.1 1.5 0.  1.5 0.  0.  1.5
+ 0.  0.8 0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0005,ayam asam manis,"ayam, bumbu marinasi, tepung maizena, air, saos tomat, kecap asin, cuka, gula pasir, lada, garam, cabai hijau, bawang bombay",30,ayam,"['kecap asin', 'bawang bombay', 'cabai hijau', 'saos tomat', 'air', 'bumbu marinasi', 'lada', 'tepung maizena', 'gula pasir', 'cuka', 'ayam', 'garam']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.
+ 0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0006,kalio daging sapi,"daging sapi, santan, air, minyak goreng, kaldu sapi, garam, gula merah, adas wangi, kayu manis, pala, bunga lawang, cengkeh, jinten, kapulaga, kelapa, kemiri, cabai merah, cabai rawit, bawang merah, bawang putih, jahe, lengkuas, daun salam, daun jeruk, serai",150,daging sapi,"['kemiri', 'daun jeruk', 'cengkeh', 'bawang putih', 'daun salam', 'air', 'jahe', 'kapulaga', 'cabai rawit', 'serai', 'gula merah', 'kaldu sapi', 'cabai merah', 'kayu manis', 'jinten', 'bawang merah', 'kelapa', 'lengkuas', 'adas wangi', 'garam', 'bunga lawang', 'pala', 'minyak goreng', 'santan', 'daging sapi']","[0.  1.5 0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.1 0.1 0.  1.5 0.  0.
+ 0.  0.  3.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.1
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.2 0.  1.5
+ 1.5 0.  0.  0.  0.  0.  1.5 0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0007,gulai daging,"daging sapi, santan, daun salam, daun kunyit, bawang merah, bawang putih, kemiri, kunyit, jahe, cabai merah, bubuk gulai, lengkuas, serai, daun jeruk, garam, gula, penyedap rasa",90,daging sapi,"['kemiri', 'daun jeruk', 'serai', 'jahe', 'cabai merah', 'bubuk gulai', 'garam', 'penyedap rasa', 'lengkuas', 'gula', 'bawang merah', 'daun salam', 'santan', 'bawang putih', 'daun kunyit', 'daging sapi', 'kunyit']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.2
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  3.  0.  1.5 0.  1.5 0.  0.  0.  1.5 0.  0.  0.  0.1 0.1 0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0008,rawon daging sapi,"daging sapi, bumbu rawon, air, serai, daun jeruk, daun bawang, taoge, telur, jeruk nipis, bawang goreng, minyak goreng",40,daging sapi,"['taoge', 'daun jeruk', 'serai', 'bawang goreng', 'bumbu rawon', 'jeruk nipis', 'air', 'daun bawang', 'minyak goreng', 'telur', 'daging sapi']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  3.  0.4 1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0009,sapi lada hitam,"daging sapi, paprika, bawang bombay, kecap manis, kecap asin, lada, tepung maizena, minyak goreng, garam, saos tiram, minyak wijen, saos tomat, kaldu",60,daging sapi,"['paprika', 'kecap manis', 'bawang bombay', 'kecap asin', 'saos tiram', 'kaldu', 'saos tomat', 'tepung maizena', 'garam', 'minyak wijen', 'minyak goreng', 'lada', 'daging sapi']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.2 0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.2 0.  0.  0.  0.4 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.2 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0010,rendang,"daging sapi, santan, daun jeruk, daun salam, serai, bumbu rendang, bawang merah, bawang putih, cabai merah, cabai rawit",180,daging sapi,"['daun jeruk', 'serai', 'cabai merah', 'bumbu rendang', 'cabai rawit', 'santan', 'daun salam', 'bawang merah', 'bawang putih', 'daging sapi']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.
+ 0.  0.  3.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0011,capcay seafood,"udang, cumi, wortel, kembang kol, jagung muda, daun bawang, sawi putih, bawang putih, bawang bombay, air, garam, merica, saos tiram, minyak goreng, sambal",25,ikan dan seafood,"['wortel', 'cumi', 'bawang bombay', 'saos tiram', 'air', 'sambal', 'kembang kol', 'daun bawang', 'jagung muda', 'bawang putih', 'minyak goreng', 'sawi putih', 'merica', 'garam', 'udang']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.4 0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  3.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.1 0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.2 0.  0.  1.5 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.
+ 0.  0.  0.  1.5 0. ]"
+R0012,tahu kipas udang,"tahu, udang, wortel, jamur, buncis, daun bawang, bawang bombay, bawang putih, gula pasir, saos tiram, garam, kaldu, lada, minyak wijen, tepung maizena, tepung serbaguna",45,ikan dan seafood,"['wortel', 'bawang bombay', 'jamur', 'tahu', 'saos tiram', 'buncis', 'kaldu', 'tepung serbaguna', 'tepung maizena', 'daun bawang', 'gula pasir', 'minyak wijen', 'bawang putih', 'lada', 'garam', 'udang']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.9 0.9 0.  0.  0.  0.  0.  3.
+ 0.  0.  0.  1.5 0. ]"
+R0013,spaghetti udang sambal matah,"spaghetti, udang, bawang merah, bawang putih, cabai rawit, serai, daun jeruk, jeruk lemon, minyak goreng, garam, lada, saos tiram",30,ikan dan seafood,"['saos tiram', 'jeruk lemon', 'daun jeruk', 'serai', 'spaghetti', 'cabai rawit', 'minyak goreng', 'bawang putih', 'bawang merah', 'lada', 'garam', 'udang']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.
+ 0.  0.  0.  0.  0. ]"
+R0014,garam asam ikan segar,"ikan, air, asam jawa, jeruk nipis, bawang merah, bawang putih, cabai rawit, kunyit, kencur, jahe, lengkuas, ketumbar, kemiri, garam, gula pasir, penyedap rasa, daun salam, daun jeruk, serai, daun bawang, tomat",90,ikan dan seafood,"['kemiri', 'daun jeruk', 'kencur', 'penyedap rasa', 'bawang putih', 'daun salam', 'air', 'jahe', 'cabai rawit', 'tomat', 'ketumbar', 'serai', 'jeruk nipis', 'bawang merah', 'asam jawa', 'lengkuas', 'ikan', 'garam', 'gula pasir', 'daun bawang', 'kunyit']","[0.  0.  0.2 0.  0.1 0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.4 1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.1 3.  0.  0.  0.  1.5 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 1.5 0.  0.1 0.  0.  1.5 0.  0.  1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0015,ikan nila goreng crispy,"ikan, garam, minyak goreng",35,ikan dan seafood,"['ikan', 'garam', 'minyak goreng']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0016,tumis telur tomat,"telur, tomat, bawang putih, daun bawang, saos tomat, air, kecap asin, gula pasir, penyedap rasa, tepung maizena",20,telur,"['kecap asin', 'saos tomat', 'air', 'tepung maizena', 'penyedap rasa', 'daun bawang', 'gula pasir', 'tomat', 'bawang putih', 'telur']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.9 0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0017,semur ayam telur,"ayam, telur, daun salam, lengkuas, serai, garam, gula pasir, kaldu, kecap manis, air",25,telur,"['kecap manis', 'serai', 'kaldu', 'air', 'gula pasir', 'daun salam', 'lengkuas', 'telur', 'ayam', 'garam']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0018,telur dadar daun bawang,"telur, daun bawang, bawang merah, garam, merica, penyedap rasa, bawang goreng",10,telur,"['bawang goreng', 'penyedap rasa', 'daun bawang', 'bawang merah', 'telur', 'merica', 'garam']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.1 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0019,rendang ayam telur,"ayam, telur, santan, air, kelapa, minyak goreng, bawang merah, bawang putih, cabai merah, cabai rawit, kemiri, kunyit, jahe, lengkuas, ketumbar, serai, pala, garam, kaldu, daun jeruk, daun salam, daun kunyit, kapulaga, cengkeh, kayu manis, bunga lawang",120,telur,"['kemiri', 'daun jeruk', 'kaldu', 'cengkeh', 'bawang putih', 'daun salam', 'telur', 'air', 'jahe', 'cabai rawit', 'kapulaga', 'ketumbar', 'ayam', 'serai', 'cabai merah', 'kayu manis', 'bawang merah', 'lengkuas', 'kelapa', 'daun kunyit', 'garam', 'bunga lawang', 'pala', 'minyak goreng', 'santan', 'kunyit']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.1 0.1 0.  1.5 0.  0.
+ 0.  0.  0.  0.  1.5 0.  1.5 0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  1.5
+ 1.5 0.  0.  0.  0.  0.  1.5 0.  1.5 0.  0.  0.1 0.  0.  1.5 0.  0.  1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0020,telur kecap cabai hijau,"telur, cabai hijau, bawang merah, bawang putih, daun bawang, tomat, air, minyak goreng, kecap manis, saos tiram, gula merah, garam",10,telur,"['kecap manis', 'saos tiram', 'cabai hijau', 'gula merah', 'air', 'daun bawang', 'minyak goreng', 'tomat', 'bawang putih', 'bawang merah', 'telur', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.1
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0021,oseng wortel telur,"wortel, telur, bawang putih, saos tiram, kecap asin, kecap ikan, gula pasir, kaldu, lada",30,sayur tumis,"['kecap asin', 'wortel', 'saos tiram', 'kaldu', 'kecap ikan', 'gula pasir', 'bawang putih', 'telur', 'lada']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.2 0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0022,tumis kangkung saos tiram,"kangkung, saos tiram, penyedap rasa, bawang merah, bawang putih, cabai rawit, tomat, gula pasir, garam, air",45,sayur tumis,"['saos tiram', 'kangkung', 'air', 'cabai rawit', 'penyedap rasa', 'gula pasir', 'tomat', 'bawang merah', 'bawang putih', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0023,"tumis pokchoy, tempe dan taoge","pokchoy, tempe, taoge, bawang merah, garam, penyedap rasa, lada, gula pasir, kecap asin, kecap inggris, air",30,sayur tumis,"['kecap asin', 'taoge', 'tempe', 'pokchoy', 'air', 'kecap inggris', 'penyedap rasa', 'gula pasir', 'bawang merah', 'lada', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.2 0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0024,tumis udang dan kol,"udang, kol, penyedap rasa, kecap inggris, minyak goreng, bawang putih, daun bawang, minyak wijen",60,sayur tumis,"['kol', 'penyedap rasa', 'kecap inggris', 'minyak goreng', 'daun bawang', 'bawang putih', 'minyak wijen', 'udang']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.2 0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.
+ 0.  0.  0.  0.  0. ]"
+R0025,tumis brokoli jamur,"brokoli, jamur, bawang putih, tepung maizena, air",5,sayur tumis,"['jamur', 'brokoli', 'air', 'tepung maizena', 'bawang putih']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0026,sup kimlo,"ayam, bakso, telur, tahu, jamur, bunga sedap malam, wortel, soun, kaldu, garam, kaldu, gula pasir, bawang putih, jahe, merica, pala",30,sup dan kuah,"['wortel', 'bunga sedap malam', 'jamur', 'tahu', 'pala', 'kaldu', 'soun', 'jahe', 'bakso', 'gula pasir', 'bawang putih', 'telur', 'ayam', 'merica', 'garam']","[0.  0.  0.  0.  0.  3.  0.  0.  3.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  1.5 1.5 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  3.  0.  0.  1.5 0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0027,"sop tahu, bakso dan sawi hijau","bakso, tahu, sawi, air, bawang putih, garam, penyedap rasa, merica, lada, gula pasir",30,sup dan kuah,"['tahu', 'sawi', 'air', 'bakso', 'penyedap rasa', 'gula pasir', 'bawang putih', 'lada', 'merica', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  3.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0028,sop ikan,"ikan, daun bawang, air, bawang merah, bawang putih, tomat, lada, pala, garam, penyedap rasa",30,sup dan kuah,"['pala', 'air', 'penyedap rasa', 'daun bawang', 'tomat', 'bawang merah', 'bawang putih', 'lada', 'ikan', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0029,sup ayam kacang hijau,"ayam, air, bawang bombay, jahe, lobak, garam, gula pasir, merica,kacang hijau, daun bawang, seledri, bawang putih",45,sup dan kuah,"['bawang bombay', 'lobak', 'kacang hijau', 'jahe', 'air', 'seledri', 'gula pasir', 'daun bawang', 'bawang putih', 'ayam', 'merica', 'garam']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.4 0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 1.5 0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0030,sup telur tahu,"bawang merah, bawang putih, tomat, tahu, telur, pokchoy, daun bawang, bawang goreng, kaldu, garam, gula pasir, lada, minyak wijen, air",30,sup dan kuah,"['tahu', 'pokchoy', 'kaldu', 'bawang goreng', 'air', 'daun bawang', 'gula pasir', 'tomat', 'bawang putih', 'bawang merah', 'minyak wijen', 'telur', 'lada', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.2 0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0031,nasi kuning,"beras, daun salam, daun pandan, serai, kapulaga, kayu manis, cengkeh, santan, kunyit, garam, air",60,nasi dan olahan beras,"['serai', 'air', 'kayu manis', 'kapulaga', 'cengkeh', 'beras', 'santan', 'daun salam', 'daun pandan', 'garam', 'kunyit']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5
+ 1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0032,nasi mandhy,"beras, air, santan, daging sapi, bumbu kari, daun jeruk, serai, daun pandan",50,nasi dan olahan beras,"['bumbu kari', 'daun jeruk', 'serai', 'air', 'beras', 'santan', 'daun pandan', 'daging sapi']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.
+ 0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  3.  0.  1.5 0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0033,nasi uduk,"beras, santan, daun salam, serai, garam, air, telur, tempe, ayam, timun, tomat, daun selada",60,nasi dan olahan beras,"['timun', 'tempe', 'serai', 'air', 'daun selada', 'beras', 'tomat', 'santan', 'daun salam', 'telur', 'ayam', 'garam']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.7 0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 1.5 0.  0.  0.  0.  0.  1.5 1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0034,nasi kebuli,"ayam, beras, garam, lada, gula pasir, kaldu, bawang merah, bawang putih, santan, margarin, cabai keriting, tomat, bawang merah, bawang putih, adas, pala, cengkeh, kayu manis, kapulaga, bunga pekak, bumbu kari",120,nasi dan olahan beras,"['kaldu', 'cengkeh', 'bawang putih', 'lada', 'kapulaga', 'tomat', 'ayam', 'bumbu kari', 'kayu manis', 'bawang merah', 'garam', 'pala', 'margarin', 'cabai keriting', 'gula pasir', 'beras', 'bunga pekak', 'santan', 'adas']","[1.5 0.  0.  0.  0.  3.  0.  0.  0.  0.  0.  0.1 0.1 0.  3.  0.  0.  0.
+ 0.  0.2 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  1.5
+ 1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0035,nasi goreng sayuran,"nasi, wortel, telur, bawang putih, bawang merah, cabai rawit, daun bawang, seledri, daging sapi, garam, kaldu, kecap manis, minyak goreng",30,nasi dan olahan beras,"['kecap manis', 'wortel', 'kaldu', 'nasi', 'cabai rawit', 'garam', 'daun bawang', 'minyak goreng', 'bawang merah', 'bawang putih', 'telur', 'seledri', 'daging sapi']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  3.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  3.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0036,mie goreng pasta bumbu kari,"mie, air, pasta, garam, kaldu, bumbu kari, daun bawang, seledri, minyak goreng, bawang bombay",15,mie dan pasta,"['bumbu kari', 'bawang bombay', 'kaldu', 'air', 'seledri', 'daun bawang', 'minyak goreng', 'pasta', 'mie', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  3.  0.  0.2 0.  0.  0.  0.  0.  3.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0037,mie goreng pasta sayur simple,"mie, makaroni, kol, wortel, daun bawang, seledri, minyak goreng, minyak wijen, penyedap rasa, garam, bawang merah, bawang putih, cabai rawit",30,mie dan pasta,"['wortel', 'kol', 'seledri', 'daun bawang', 'minyak goreng', 'minyak wijen', 'penyedap rasa', 'bawang merah', 'bawang putih', 'cabai rawit', 'mie', 'garam', 'makaroni']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.
+ 0.  0.  3.  0.  0.  3.  0.  0.2 0.2 0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0038,mie wortel spaghetti,"mie, wortel, spaghetti, bawang bombay, sosis, margarin, minyak goreng, telur, bakso, keju, saos tomat",30,mie dan pasta,"['wortel', 'bawang bombay', 'spaghetti', 'margarin', 'saos tomat', 'sosis', 'bakso', 'minyak goreng', 'telur', 'mie', 'keju']","[0.  0.  0.  0.  0.  0.  0.  0.  3.  0.4 0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.2 0.  3.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.
+ 3.  0.  3.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0039,mie bolognese,"ayam, bawang bombay, bawang putih, pala, garam, gula pasir, merica, saos tomat, saos sambal, air, tepung maizena, margarin, keju, mie, oregano",30,mie dan pasta,"['bawang bombay', 'pala', 'margarin', 'saos tomat', 'oregano', 'air', 'tepung maizena', 'gula pasir', 'mie', 'bawang putih', 'ayam', 'merica', 'keju', 'garam', 'saos sambal']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.4 0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.2 0.1 3.  0.  0.  0.  0.  0.4 1.5 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.2 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0040,mie saus pasta kedelai,"mie, ayam, bawang bombay, kentang, zucchini, pasta kedelai, cabai rawit, bawang merah, bawang putih, minyak wijen, tepung maizena, garam, gula pasir, air, telur, timun, wijen",40,mie dan pasta,"['bawang bombay', 'timun', 'wijen', 'kentang', 'air', 'cabai rawit', 'tepung maizena', 'minyak wijen', 'gula pasir', 'bawang merah', 'bawang putih', 'ayam', 'telur', 'mie', 'zucchini', 'garam', 'pasta kedelai']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.4 0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  3.  0.  0.  0.2 0.  0.  0.  0.  0.  1.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.9 0.  0.  0.  1.5 0.  0.  0.
+ 0.  0.  0.2 0.  1.5]"
+R0041,bolu pisang kukus mini,"pisang, minyak goreng, gula pasir, telur, tepung terigu, susu, garam, baking powder, vanilla",40,kue dan dessert,"['vanilla', 'baking powder', 'tepung terigu', 'gula pasir', 'pisang', 'minyak goreng', 'telur', 'garam', 'susu']","[0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.9 0.  0.  0.  0.1 0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.
+ 0.  0.9 0.  0.  0. ]"
+R0042,bomboloni cookies,"margarin, gula halus, susu, tepung maizena, tepung terigu, coklat, kacang tanah",55,kue dan dessert,"['coklat', 'susu', 'margarin', 'tepung maizena', 'tepung terigu', 'kacang tanah', 'gula halus']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.9 0.  0.9 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0043,kastengel,"margarin, gula halus, telur, keju, tepung maizena, tepung terigu, baking powder, garam, susu",90,kue dan dessert,"['baking powder', 'susu', 'margarin', 'tepung terigu', 'tepung maizena', 'telur', 'garam', 'gula halus', 'keju']","[0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.9 0.  0.  0.  0.1 0.  0.  0.9 0.  0.9 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0044,biji salak ubi ungu,"ubi ungu, tepung terigu, gula pasir, garam, air, daun pandan, tepung maizena, santan, tepung beras",40,kue dan dessert,"['air', 'daun pandan', 'tepung maizena', 'gula pasir', 'tepung beras', 'santan', 'ubi ungu', 'tepung terigu', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.9 0.  0.9 0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0. ]"
+R0045,es jagung hawaii,"jagung, air, garam, tepung maizena, gula pasir, es batu, pudding, kelapa, santan, susu",30,kue dan dessert,"['pudding', 'jagung', 'air', 'es batu', 'tepung maizena', 'gula pasir', 'santan', 'kelapa', 'susu', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.1 0.  0.  0.
+ 0.1 0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.9 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0046,nasi goreng bakso,"nasi, bawang putih, bawang merah, daun bawang, cabai merah, bakso, garam, lada, kaldu, kecap ikan, telur, minyak goreng",25,sarapan,"['kaldu', 'nasi', 'cabai merah', 'kecap ikan', 'bakso', 'daun bawang', 'minyak goreng', 'bawang merah', 'bawang putih', 'telur', 'lada', 'garam']","[0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  3.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0047,mie telur,"tepung terigu, tepung beras, telur, minyak bawang, kaldu, kecap manis, minyak goreng",20,sarapan,"['kecap manis', 'minyak bawang', 'kaldu', 'tepung beras', 'telur', 'minyak goreng', 'tepung terigu']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.2 0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.9 0.  0.  0.9 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0048,kentang kukus scrambled egg,"kentang, telur, saos sambal, margarin, garam, lada",15,sarapan,"['kentang', 'margarin', 'telur', 'lada', 'garam', 'saos sambal']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0049,jasuke,"jagung, margarin, susu, keju",15,sarapan,"['margarin', 'jagung', 'susu', 'keju']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0050,pancake,"tepung terigu, baking powder, margarin, susu, gula pasir, telur, madu, selai, coklat, keju",20,sarapan,"['selai', 'baking powder', 'coklat', 'margarin', 'telur', 'gula pasir', 'madu', 'tepung terigu', 'susu', 'keju']","[0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.8 0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.8 0.  0.  0.
+ 0.  0.  0.  0.9 0.  0.  0.  0.1 0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0051,dimsum ayam,"ayam, labu siam, tepung terigu, tepung maizena, air, saos tiram, minyak wijen, kecap asin, garam, gula pasir, penyedap rasa, bawang merah, bawang putih, telur, daun bawang, wortel, keju, jamur",60,ayam,"['kecap asin', 'wortel', 'saos tiram', 'jamur', 'labu siam', 'air', 'tepung maizena', 'penyedap rasa', 'minyak wijen', 'gula pasir', 'telur', 'bawang merah', 'bawang putih', 'daun bawang', 'tepung terigu', 'ayam', 'garam', 'keju']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.2 0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.9 0.  0.9 0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0052,ayam tepung saos teriyaki,"ayam, bawang putih, kaldu, tepung maizena, saos teriyaki, air, daun kucai",30,ayam,"['kaldu', 'saos teriyaki', 'air', 'tepung maizena', 'daun kucai', 'bawang putih', 'ayam']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0053,ayam rica rica jawa,"ayam, cabai rawit, daun salam, daun jeruk, serai, kecap manis, gula merah, garam, kaldu, air, bawang merah, bawang putih, cabai keriting, kemiri, lengkuas, kunyit, jahe, lada",45,ayam,"['kecap manis', 'kemiri', 'daun jeruk', 'serai', 'kaldu', 'gula merah', 'air', 'cabai keriting', 'jahe', 'cabai rawit', 'lada', 'lengkuas', 'bawang merah', 'daun salam', 'bawang putih', 'ayam', 'garam', 'kunyit']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.1
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.1 1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0054,lodeh daging,"daging sapi, tahu, tempe, air, santan, kaldu, garam, gula pasir, lada, ketumbar, bawang bombay, bawang merah, bawang putih, cabai hijau, cabai merah, lengkuas, daun salam, jahe",30,daging sapi,"['bawang bombay', 'tahu', 'tempe', 'kaldu', 'cabai hijau', 'air', 'cabai merah', 'jahe', 'garam', 'gula pasir', 'lengkuas', 'santan', 'ketumbar', 'bawang merah', 'bawang putih', 'daun salam', 'lada', 'daging sapi']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.4 0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.1 1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0055,soto daging,"daging sapi, soun, daun bawang, taoge, bawang merah, bawang putih, kemiri, ketumbar, jinten, kunyit, merica, jahe, lengkuas, daun salam, serai, bawang goreng, daun jeruk, garam, gula pasir, penyedap rasa",120,daging sapi,"['kemiri', 'daun jeruk', 'penyedap rasa', 'bawang putih', 'daun salam', 'jahe', 'ketumbar', 'merica', 'taoge', 'serai', 'bawang goreng', 'soun', 'jinten', 'bawang merah', 'lengkuas', 'garam', 'daun bawang', 'gula pasir', 'daging sapi', 'kunyit']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  3.  0.4 1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.1 0.  0.  1.5 0.  0.  1.5
+ 0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  3.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0056,empal daging balado,"daging sapi, air, bawang merah, bawang putih, ketumbar, garam, lada, cabai merah, cabai rawit, tomat, garam, gula pasir, minyak goreng, serai, daun salam, daun jeruk",105,daging sapi,"['daun jeruk', 'serai', 'air', 'cabai merah', 'garam', 'cabai rawit', 'gula pasir', 'minyak goreng', 'tomat', 'bawang putih', 'ketumbar', 'bawang merah', 'daun salam', 'lada', 'daging sapi']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.
+ 0.  0.  3.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0057,udang lada hitam,"udang, bawang putih, bawang bombay, saos lada hitam, kecap manis, saos tiram, minyak wijen",30,ikan dan seafood,"['kecap manis', 'bawang bombay', 'saos tiram', 'minyak wijen', 'bawang putih', 'saos lada hitam', 'udang']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.
+ 0.  0.  0.  0.  0. ]"
+R0058,sayur labu udang tofu,"labu siam, wortel, tahu, udang, santan, air, bawang merah, bawang putih, cabai merah, jahe, kunyit, daun salam, daun jeruk, garam, kaldu",30,ikan dan seafood,"['wortel', 'kunyit', 'tahu', 'daun jeruk', 'labu siam', 'kaldu', 'air', 'cabai merah', 'jahe', 'santan', 'bawang merah', 'bawang putih', 'daun salam', 'garam', 'udang']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 1.5 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.
+ 0.  0.  0.  1.5 0. ]"
+R0059,cumi sotong pedas,"cumi, serai, daun salam, cabai merah, cabai hijau, bawang merah, bawang putih",15,ikan dan seafood,"['cumi', 'serai', 'cabai hijau', 'cabai merah', 'bawang merah', 'daun salam', 'bawang putih']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.1 0.  0.  0.  0.  0.
+ 0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0060,bayam kuah telur,"bayam, telur, bawang merah, bawang putih, kaldu, minyak goreng, air",10,telur,"['kaldu', 'air', 'minyak goreng', 'bawang putih', 'bawang merah', 'bayam', 'telur']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 1.5 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0061,martabak telur daging,"daging sapi, jamur shitake, telur, bawang putih, daun bawang, penyedap rasa, lada, kulit lumpia, minyak goreng",45,telur,"['kulit lumpia', 'jamur shitake', 'penyedap rasa', 'daun bawang', 'minyak goreng', 'bawang putih', 'telur', 'lada', 'daging sapi']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  3.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0062,kari telur tahu,"telur, tahu, daun bawang, santan, bawang putih, bawang merah, jahe, kunyit, kemiri, garam, gula pasir, penyedap rasa",35,telur,"['kemiri', 'tahu', 'jahe', 'penyedap rasa', 'daun bawang', 'gula pasir', 'santan', 'bawang putih', 'bawang merah', 'telur', 'garam', 'kunyit']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  1.5 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0063,tumis bunga pepaya,"bunga pepaya, garam, asam jawa, bawang merah, bawang putih, cabai rawit, gula pasir, garam, kaldu",15,sayur tumis,"['kaldu', 'cabai rawit', 'gula pasir', 'bawang merah', 'asam jawa', 'bawang putih', 'bunga pepaya', 'garam']","[0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0064,oseng daun pepaya jepang,"daun pepaya, air, garam, bawang merah, bawang putih, tomat, cabai merah, ikan teri, minyak goreng, kaldu, gula pasir, merica",20,sayur tumis,"['kaldu', 'air', 'cabai merah', 'gula pasir', 'minyak goreng', 'tomat', 'bawang putih', 'bawang merah', 'merica', 'garam', 'daun pepaya', 'ikan teri']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.1 0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0065,tumis labu siam,"labu siam, cabai rawit, bawang merah, bawang putih, terasi, garam, penyedap rasa",60,sayur tumis,"['labu siam', 'cabai rawit', 'penyedap rasa', 'bawang putih', 'terasi', 'bawang merah', 'garam']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0066,sup timun telur bihun,"timun, daun bawang, bawang putih, cabai rawit, cabai hijau, cabai merah, telur, bihun, garam, gula pasir, kecap manis, minyak wijen, kecap asin",30,sup dan kuah,"['kecap manis', 'kecap asin', 'timun', 'bihun', 'cabai hijau', 'cabai merah', 'cabai rawit', 'daun bawang', 'gula pasir', 'minyak wijen', 'bawang putih', 'telur', 'garam']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  3.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.1 0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.2 0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0067,miso soup,"air, rumput laut, tahu, jamur enoki, pasta miso, kaldu, garam",15,sup dan kuah,"['tahu', 'kaldu', 'air', 'jamur enoki', 'pasta miso', 'garam', 'rumput laut']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.2 0.  0.
+ 0.  0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0068,sop ayam,"wortel, kentang, buncis, seledri, ayam, ceker, kayu manis, cengkeh, bawang merah, bawang putih, lada, gula pasir, garam",25,sup dan kuah,"['wortel', 'buncis', 'kentang', 'kayu manis', 'lada', 'cengkeh', 'gula pasir', 'ceker', 'bawang merah', 'bawang putih', 'seledri', 'ayam', 'garam']","[0.  0.  0.  0.  0.  3.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  3.  1.5 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0069,nasi goreng sosis telur,"nasi, telur, sosis, garam, minyak wijen, kecap manis, penyedap rasa, minyak goreng, bawang merah, bawang putih, cabai rawit, cabai merah",30,nasi dan olahan beras,"['kecap manis', 'nasi', 'sosis', 'cabai merah', 'cabai rawit', 'penyedap rasa', 'minyak wijen', 'minyak goreng', 'bawang merah', 'bawang putih', 'telur', 'garam']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.1 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.2 3.  0.  0.  0.  0.  0.  0.  0.2 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 3.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0070,es dawet beras,"dawet, gula merah, daun merah, santan, air, es batu",30,nasi dan olahan beras,"['gula merah', 'daun merah', 'air', 'es batu', 'santan', 'dawet']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.  0.  0.  1.5 0.5 0.  0.  0.  0.1
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0071,kue talam beras asin,"beras, kentang, jagung, wortel, sosis, daun bawang, seledri, tepung maizena, gula pasir, garam, santan",30,nasi dan olahan beras,"['wortel', 'kentang', 'sosis', 'jagung', 'tepung maizena', 'daun bawang', 'beras', 'gula pasir', 'santan', 'seledri', 'garam']","[0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.4 0.  0.
+ 3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0072,mie ayam jamur,"minyak goreng, bawang putih, jamur shitake, ayam, kecap manis, kecap asin, saos tiram, garam, kaldu, lada, tepung maizena, air, mie",30,mie dan pasta,"['kecap manis', 'kecap asin', 'saos tiram', 'kaldu', 'air', 'jamur shitake', 'lada', 'tepung maizena', 'minyak goreng', 'mie', 'bawang putih', 'ayam', 'garam']","[0.  0.  0.2 0.  0.  3.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.2 0.  0.  0.
+ 0.  0.2 0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.
+ 0.  0.  0.  0.  0.  3.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0073,mie goreng sosis telur,"mie, air, bawang putih, minyak goreng, minyak wijen, kecap manis, saos pedas, saos tiram, garam, sawi, sosis, telur, udang, daun bawang",20,mie dan pasta,"['kecap manis', 'saos tiram', 'sawi', 'sosis', 'air', 'minyak wijen', 'minyak goreng', 'daun bawang', 'bawang putih', 'saos pedas', 'telur', 'mie', 'garam', 'udang']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.4 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  3.  0.  0.2 0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.2 0.  1.5 0.  0.  0.  0.  0.
+ 3.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  3.
+ 0.  0.  0.  0.  0. ]"
+R0074,mie goreng bihun,"bihun, wortel, telur, minyak goreng, garam, kecap asin, air",30,mie dan pasta,"['kecap asin', 'wortel', 'bihun', 'air', 'minyak goreng', 'telur', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  1.5 0. ]"
+R0075,es cincau susu,"cincau, gula pasir, air, santan, daun pandan, susu, sirup",30,kue dan dessert,"['sirup', 'cincau', 'air', 'gula pasir', 'santan', 'daun pandan', 'susu']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5
+ 0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0076,ice lemon tea,"teh, air, jeruk lemon, es batu, gula pasir",15,kue dan dessert,"['jeruk lemon', 'air', 'es batu', 'gula pasir', 'teh']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0077,milk matcha latte,"bubuk matcha, air, susu, es batu",10,kue dan dessert,"['susu', 'bubuk matcha', 'air', 'es batu']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.9 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.5 0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.9 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0. ]"
+R0078,roti pasta ubi ungu,"ubi ungu, susu, margarin, gula pasir, ragi, tepung terigu, telur, vanila,garam, almond, wijen",180,sarapan,"['wijen', 'almond', 'margarin', 'ragi', 'tepung terigu', 'telur', 'gula pasir', 'vanila', 'ubi ungu', 'susu', 'garam']","[0.  0.  0.  0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  1.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.9 0.  0.  0.  0.1 0.  0.  0.  0.  0.9 0.  0.  0.  1.5 0.
+ 0.2 0.  0.2 0.  0. ]"
+R0079,banana bread,"telur, pisang, gula pasir, baking powder, baking soda, tepung terigu, kayu manis, minyak goreng, garam, vanila",75,sarapan,"['baking soda', 'baking powder', 'kayu manis', 'tepung terigu', 'pisang', 'gula pasir', 'minyak goreng', 'vanila', 'telur', 'garam']","[0.  0.  0.  0.  0.  0.  0.9 0.9 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 1.5 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  1.5
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.9 0.  0.  0.  0.  0.
+ 0.2 0.  0.  0.  0. ]"
+R0080,bubur cha cha,"ubi ungu, tepung terigu, tepung beras, garam, air, santan, gula pasir, daun pandan",60,sarapan,"['air', 'tepung beras', 'daun pandan', 'gula pasir', 'santan', 'ubi ungu', 'tepung terigu', 'garam']","[0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  1.5 0.  0.  0.  0.  0.  0.1 0.  0.  0.
+ 0.1 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.2 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.9 0.  0.  0.9 0.  0.  0.  1.5 0.
+ 0.  0.  0.  0.  0. ]"
