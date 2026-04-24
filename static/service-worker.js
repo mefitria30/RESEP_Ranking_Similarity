@@ -6,7 +6,12 @@ const urlsToCache = [
     "/static/manifest.json",
     "/static/icons/icon-192.png",
     "/static/icons/icon-512.png",
-    "/static/recipe_vectors.json"
+    "/static/recipe_vectors.json",
+    "/static/assets/bootstrap.bundle.min.js",
+    "/static/assets/bootstrap.min.css",
+    "/static/assets/jquery-3.6.0.min.js",
+    "/static/assets/jquery-ui.css",
+    "/static/assets/jquery-ui.js",
 ];
 
 self.addEventListener( "install", event =>

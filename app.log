@@ -201,3 +201,339 @@
 2026-04-25 05:10:18,800 [INFO] 127.0.0.1 - - [25/Apr/2026 05:10:18] "GET /static/icons/icon-192.png HTTP/1.1" 200 -
 2026-04-25 05:10:18,803 [INFO] 127.0.0.1 - - [25/Apr/2026 05:10:18] "GET /static/icons/icon-512.png HTTP/1.1" 200 -
 2026-04-25 05:10:18,807 [INFO] 127.0.0.1 - - [25/Apr/2026 05:10:18] "GET /static/recipe_vectors.json HTTP/1.1" 200 -
+2026-04-25 05:11:06,762 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:06] "GET / HTTP/1.1" 200 -
+2026-04-25 05:11:07,083 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:11:07,137 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "GET / HTTP/1.1" 200 -
+2026-04-25 05:11:07,140 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:11:07,143 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:11:07,145 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:11:07,156 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:11:07,158 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:11:07,170 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "GET /static/icons/icon-192.png HTTP/1.1" 200 -
+2026-04-25 05:11:07,178 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "GET /static/icons/icon-512.png HTTP/1.1" 200 -
+2026-04-25 05:11:07,179 [INFO] 127.0.0.1 - - [25/Apr/2026 05:11:07] "GET /static/recipe_vectors.json HTTP/1.1" 200 -
+2026-04-25 05:23:51,286 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "GET / HTTP/1.1" 200 -
+2026-04-25 05:23:51,699 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:23:51,761 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "GET / HTTP/1.1" 200 -
+2026-04-25 05:23:51,766 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:23:51,769 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:23:51,773 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:23:51,782 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:23:51,788 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:23:51,807 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:23:51,809 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:23:51,874 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:23:56,230 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "GET / HTTP/1.1" 200 -
+2026-04-25 05:23:56,457 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:23:56,501 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:23:56,561 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "GET / HTTP/1.1" 200 -
+2026-04-25 05:23:56,571 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:23:56,579 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:23:56,586 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:23:56,595 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:23:56,601 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:23:56,611 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:23:56,614 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:56] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:23:58,852 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:58] "GET / HTTP/1.1" 200 -
+2026-04-25 05:23:59,029 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:23:59,048 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:23:59,123 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "GET / HTTP/1.1" 200 -
+2026-04-25 05:23:59,127 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:23:59,129 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:23:59,134 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:23:59,144 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:23:59,149 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:23:59,152 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:23:59,157 [INFO] 127.0.0.1 - - [25/Apr/2026 05:23:59] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:24:00,219 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "GET / HTTP/1.1" 200 -
+2026-04-25 05:24:00,380 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:24:00,392 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:24:00,453 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "GET / HTTP/1.1" 200 -
+2026-04-25 05:24:00,458 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:24:00,462 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:24:00,467 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:24:00,472 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:24:00,479 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:24:00,484 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:24:00,489 [INFO] 127.0.0.1 - - [25/Apr/2026 05:24:00] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:42:23,382 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "GET / HTTP/1.1" 200 -
+2026-04-25 05:42:23,803 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:42:23,853 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "GET / HTTP/1.1" 200 -
+2026-04-25 05:42:23,855 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:42:23,861 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:42:23,866 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:42:23,871 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:42:23,879 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:42:23,884 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:42:23,889 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:42:23,919 [INFO] 127.0.0.1 - - [25/Apr/2026 05:42:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:43:03,185 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\convert_to_json.py', reloading
+2026-04-25 05:43:04,554 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-25 05:43:08,828 [INFO] Aplikasi Flask dimulai...
+2026-04-25 05:43:08,881 [WARNING]  * Debugger is active!
+2026-04-25 05:43:08,899 [INFO]  * Debugger PIN: 145-962-512
+2026-04-25 05:48:47,709 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:47] "GET / HTTP/1.1" 200 -
+2026-04-25 05:48:47,898 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:47] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:48:47,903 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:47] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:48:47,908 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:47] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:47,922 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:47] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:48,004 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:48:48,196 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:48:48,269 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "GET / HTTP/1.1" 200 -
+2026-04-25 05:48:48,279 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:48,282 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:48:48,289 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:48,294 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:48:48,302 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:48,309 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:48:48,314 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:48:48,327 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:48:48,331 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:48:48,339 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:48:48,348 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:48:48,352 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:48] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:48:49,148 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "GET / HTTP/1.1" 200 -
+2026-04-25 05:48:49,301 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,307 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,312 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,318 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,356 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:48:49,363 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,407 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,460 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "GET / HTTP/1.1" 200 -
+2026-04-25 05:48:49,463 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,466 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:48:49,471 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:48:49,478 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:48:49,483 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:48:49,493 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:48:49,496 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:48:49,499 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,505 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,509 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,515 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:48:49,521 [INFO] 127.0.0.1 - - [25/Apr/2026 05:48:49] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:11,913 [INFO] Ranking selesai untuk resep 'jasuke', top 9 rekomendasi dihasilkan.
+2026-04-25 05:49:11,929 [INFO] Resep 'jasuke' ditemukan, menampilkan hasil rekomendasi.
+2026-04-25 05:49:11,986 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:11] "POST / HTTP/1.1" 200 -
+2026-04-25 05:49:12,103 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,106 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,111 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "GET /static/recommend.js HTTP/1.1" 200 -
+2026-04-25 05:49:12,147 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,152 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:49:12,199 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,577 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "GET / HTTP/1.1" 200 -
+2026-04-25 05:49:12,579 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,588 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:49:12,592 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:49:12,602 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:49:12,613 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:49:12,627 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:49:12,629 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,636 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:49:12,640 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,647 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,660 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:49:12,666 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:12] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:18,928 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:18] "GET / HTTP/1.1" 200 -
+2026-04-25 05:49:19,037 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,047 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,053 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,057 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,104 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:49:19,132 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,194 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "GET / HTTP/1.1" 200 -
+2026-04-25 05:49:19,198 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,202 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:49:19,204 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:49:19,216 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:49:19,223 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:49:19,229 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:49:19,233 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:49:19,235 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,241 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,245 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,255 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:49:19,263 [INFO] 127.0.0.1 - - [25/Apr/2026 05:49:19] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,522 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "GET / HTTP/1.1" 200 -
+2026-04-25 05:50:35,669 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,672 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,680 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,686 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,722 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:50:35,724 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,819 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "GET / HTTP/1.1" 200 -
+2026-04-25 05:50:35,824 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,829 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:50:35,832 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:50:35,842 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:50:35,848 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:50:35,853 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:50:35,858 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,864 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:50:35,870 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,879 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,883 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:50:35,888 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:35] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:50:45,673 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:45] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:50:48,175 [INFO] 127.0.0.1 - - [25/Apr/2026 05:50:48] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:51,619 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:51] "GET / HTTP/1.1" 200 -
+2026-04-25 05:51:51,802 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:51] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:51,805 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:51] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:51,811 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:51] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:51,819 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:51] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:51,875 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:51] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:51,881 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:51] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:51:51,929 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:51:52,039 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "GET / HTTP/1.1" 200 -
+2026-04-25 05:51:52,043 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:51:52,048 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:51:52,051 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:51:52,059 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:51:52,070 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:51:52,075 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:51:52,077 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:52,091 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:52,095 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:51:52,098 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:52,106 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:52,111 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:52] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:53,109 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "GET / HTTP/1.1" 200 -
+2026-04-25 05:51:53,308 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:53,351 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:53,507 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:53,510 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:53,541 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:51:53,582 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:51:53,696 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "GET / HTTP/1.1" 200 -
+2026-04-25 05:51:53,706 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:51:53,760 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:51:53,780 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:51:53,893 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:51:53,908 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:51:53,932 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:51:53,953 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:51:53,963 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:53] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:54,027 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:54] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:54,058 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:54] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:54,063 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:54] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:54,074 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:54] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:54,901 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:54] "GET / HTTP/1.1" 200 -
+2026-04-25 05:51:55,090 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,125 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,135 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,142 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,162 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:51:55,203 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,341 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "GET / HTTP/1.1" 200 -
+2026-04-25 05:51:55,347 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,361 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:51:55,367 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:51:55,369 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:51:55,389 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:51:55,400 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:51:55,412 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,417 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:51:55,429 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,456 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,476 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:51:55,510 [INFO] 127.0.0.1 - - [25/Apr/2026 05:51:55] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,264 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "GET / HTTP/1.1" 200 -
+2026-04-25 05:52:00,404 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,407 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,413 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,420 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,472 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,480 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:52:00,505 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,568 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "GET / HTTP/1.1" 200 -
+2026-04-25 05:52:00,572 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,576 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:52:00,579 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:52:00,587 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:52:00,618 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:52:00,627 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:52:00,631 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,632 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:52:00,638 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,646 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,653 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:52:00,659 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:00] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,359 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "GET / HTTP/1.1" 200 -
+2026-04-25 05:52:32,446 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,451 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,457 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,462 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,520 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,525 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:52:32,543 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,700 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "GET / HTTP/1.1" 200 -
+2026-04-25 05:52:32,703 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,708 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:52:32,711 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:52:32,720 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:52:32,725 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:52:32,731 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:52:32,737 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,739 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:52:32,742 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,750 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,755 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:52:32,761 [INFO] 127.0.0.1 - - [25/Apr/2026 05:52:32] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,272 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "GET / HTTP/1.1" 200 -
+2026-04-25 05:53:50,437 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,441 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,446 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,451 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,491 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,491 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:53:50,518 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,536 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,624 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "GET / HTTP/1.1" 200 -
+2026-04-25 05:53:50,630 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,632 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:53:50,641 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:53:50,651 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:53:50,660 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:53:50,666 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:53:50,670 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,673 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:53:50,681 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,690 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,694 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:53:50,699 [INFO] 127.0.0.1 - - [25/Apr/2026 05:53:50] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:54:02,934 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:02] "GET / HTTP/1.1" 200 -
+2026-04-25 05:54:03,088 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,092 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,098 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,107 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,158 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "GET /static/service-worker.js HTTP/1.1" 200 -
+2026-04-25 05:54:03,166 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,253 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "GET / HTTP/1.1" 200 -
+2026-04-25 05:54:03,257 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,260 [INFO] Halaman offline ditampilkan.
+2026-04-25 05:54:03,262 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 05:54:03,269 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 05:54:03,271 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 05:54:03,308 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 05:54:03,313 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 05:54:03,315 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,320 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/bootstrap.min.css HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,328 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/jquery-3.6.0.min.js HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,333 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/jquery-ui.css HTTP/1.1[0m" 404 -
+2026-04-25 05:54:03,340 [INFO] 127.0.0.1 - - [25/Apr/2026 05:54:03] "[33mGET /assets/jquery-ui.js HTTP/1.1[0m" 404 -
+2026-04-25 05:54:47,627 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\assets\\bootstrap-5.0.2-dist.zip', reloading
+2026-04-25 05:54:48,255 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-25 05:54:52,731 [INFO] Aplikasi Flask dimulai...
+2026-04-25 05:54:52,781 [WARNING]  * Debugger is active!
+2026-04-25 05:54:52,796 [INFO]  * Debugger PIN: 145-962-512
+2026-04-25 05:58:43,981 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
+2026-04-25 05:58:43,982 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
+2026-04-25 05:58:43,985 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
+2026-04-25 05:58:43,987 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
+2026-04-25 05:58:43,988 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
+2026-04-25 05:58:43,990 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
+2026-04-25 05:58:44,521 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-25 05:58:48,092 [INFO] Aplikasi Flask dimulai...
+2026-04-25 05:58:48,130 [WARNING]  * Debugger is active!
+2026-04-25 05:58:48,144 [INFO]  * Debugger PIN: 145-962-512
