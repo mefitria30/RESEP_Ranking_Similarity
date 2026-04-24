@@ -1,0 +1,53 @@
+Bagus sekali kamu sudah merancang latar belakang dengan pendekatan 5W + 1H. Itu membuat alur berpikir lebih sistematis. Supaya sesuai pedoman “1.1 Latar Belakang Masalah”, latar belakang harus memuat urgensi topik, potensi pemanfaatan, prospek pengembangan, dampak, dan kebaruan ilmiah. Mari kita susun kerangka yang bisa kamu kembangkan:
+
+---
+
+📖 Draft Latar Belakang (Contoh Struktur)
+
+1. What (Apa)
+- Resep adalah panduan langkah-langkah memasak yang berisi bahan dan cara pengolahan makanan.  
+- Makanan merupakan kebutuhan dasar manusia untuk bertahan hidup sekaligus bagian dari budaya.  
+- Machine Learning adalah cabang kecerdasan buatan yang memungkinkan sistem belajar dari data untuk menghasilkan rekomendasi atau prediksi.  
+- Progressive Web App (PWA) adalah aplikasi berbasis web yang memiliki kemampuan seperti aplikasi native, termasuk akses offline melalui service worker dan caching.
+
+2. When (Kapan)
+- Urgensi muncul di era digital dan urbanisasi, ketika masyarakat membutuhkan akses cepat ke informasi resep tanpa bergantung pada koneksi internet.  
+- PWA dan machine learning relevan karena web biasa hanya menampilkan data statis, sementara sistem ini mampu memberi rekomendasi cerdas dan tetap berjalan offline.
+
+3. Who (Siapa)
+- Target pengguna: masyarakat urban, ibu rumah tangga, mahasiswa, dan pecinta kuliner yang membutuhkan rekomendasi resep praktis.  
+- Industri kuliner dan UMKM makanan juga dapat memanfaatkan sistem ini untuk inovasi produk.
+
+4. Where (Dimana)
+- Aplikasi dapat diakses di perangkat mobile maupun desktop, sehingga masyarakat bisa menemukan resep sesuai kebutuhan mereka di mana saja.
+
+5. Why (Mengapa)
+- Makanan adalah kebutuhan primer manusia.  
+- Urgensi penelitian: membantu masyarakat menghemat waktu, meningkatkan variasi konsumsi, dan mendukung gaya hidup sehat serta efisien.  
+- Kebaruan: sistem rekomendasi berbasis nuansa makanan (bukan sekadar bahan) yang jarang diteliti.
+
+6. How (Bagaimana)
+- Masyarakat urban cenderung sibuk, sehingga membutuhkan solusi digital yang cepat, efisien, dan bisa diakses kapan saja.  
+- Hubungan dengan resep: aplikasi membantu mereka menemukan masakan sesuai bahan yang tersedia dan preferensi rasa.
+
+---
+
+⚖️ Landasan Hukum
+Untuk memperkuat latar belakang, kamu bisa merujuk pada:
+- UU No. 18 Tahun 2012 tentang Pangan → mengatur ketersediaan, keamanan, dan kemudahan akses pangan.  
+
+- UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (ITE) → relevan dengan pemanfaatan teknologi informasi dalam aplikasi digital.  
+- Peraturan Pemerintah terkait keamanan data dan perlindungan konsumen → mendukung aspek etika penggunaan aplikasi.
+
+---
+
+📌 Kebaruan Ilmiah
+- Integrasi PWA dengan machine learning untuk rekomendasi resep berbasis bahan dan nuansa makanan.  
+- Fokus pada kuliner Indonesia populer sebagai dataset, sehingga mendukung pelestarian budaya sekaligus inovasi teknologi.  
+- Memberikan solusi offline-first yang jarang diterapkan pada aplikasi resep.
+
+---
+
+👉 Jadi, latar belakangmu bisa dimulai dengan urgensi kebutuhan masyarakat akan aplikasi resep digital, lalu masuk ke potensi pemanfaatan PWA dan machine learning, dilanjutkan dengan landasan hukum dan teori, dan ditutup dengan prospek pengembangan serta kebaruan ilmiah.
+
+Apakah kamu mau saya bantu menyusun versi narasi lengkap (paragraf utuh) dari kerangka ini, supaya langsung bisa dipakai di Bab I skripsi?

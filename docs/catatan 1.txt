@@ -1,0 +1,13 @@
+1.1Latar Belakang MasalahLatar  belakang  masalahberisi  uraian  urgensi  topik  penelitian; potensi dan pemanfaatan di masyarakat dan industri; uraian future prospect    development),dampak,(outcome) penelitian    dan kebaruan ilmiah.
+
+1.2 Rumusan MasalahRumusan  masalahmengacu  pada  hasil  analisis  data  atau  studi pendahuluan atau referensi atau studi lapangan, rumusan masalah yakni  pernyataan  yang  mengungkapkan  adanya  kelemahan  dari cara  kerja  suatu systemyang  dapat  dinyatakan  sebagai  hubungan sebab  akibat  atau  formulasi. Contoh  rumusan  masalahsebagai berikut :a)Fluktuasi    harga    saham    yang    tinggi    sehingga menimbulkan     kerugian     dalam     pembelian     dan penjualan harga saham.b)Visualisasi   data   sulit   dibaca   dan   tidak real-timesehingga  mengakibatkan  data  yang  digunakan  bukan data   terbaru   dan   mengakibatkan   kesalahandalam pengambilan keputusan pembelian saham.
+
+1.3   Batasan MasalahSuatu  batasan  terhadap  ruang  lingkup  suatu  permasalahan  agar 
+pembahasan  bisa  fokus  pada  satu  persoalandan  berisi  uraian pemodelan   penyelesaian   masalah   secara   sederhanaBatasan masalah    memiliki    fungsi    untuk    mengarahkan    pembahasan penelitian, sehingga tidak mengalami penyempitan atau pelebaran pokok   masalah.Bagian   ini   akan   membantu   peneliti   dalam menentukan  fokus  masalah.Contoh  batasan  masalahsebagai berikut :
+a)Penelitian ini  terbatas pada laporan harga saham harian.
+b)Data pada penelitian ini menggunakan periode waktu 19 Desember 2007sampai 02 Mei 2024.
+c)Evaluasi  hasil  modeling   menggunakan  Mean  Absolute Percentage Errordan R-Squared Score.
+d)Outcomeyang   dihasilkan   berupa   visualisasi   prediksi harga saham Indonesia
+
+1.4Tujuan Penelitian
+Tujuan penelitian adalah Capaian yang diharapkan dari penelitian yakni  peningkatan  kinerja  sistem,  atau  akurasi  analisa. Tujuan dituliskan dalam bentuk pernyataan singkat dan jelas mengenai hal yang  akan  diperoleh  dari  kegiatan  magang  atau  dijawab  dalam pertanyaan    penelitian    sebagaimana    dijelaskan    dalam    latar belakang. Tujuan dinyatakan dengan kata kerja yang dapat diukur seperti  mengidentifikasi,  menganalisis,  menghitung,  menyusun, merumuskan,   mengukur   besaran,   menguraikan,   menerangkan, membuktikan,   menjajaki,   menguji,   menerapkan   konsep   atau dugaan,   atau   membuat prototype.Dalam   pernyataan   tujuan penelitian   sebaiknya   tidak   digunakan   kata   kerja   mengetahui, melihat,  atau  memahami.  Masalah  dan  tujuan  penelitian  harus terkait dan konsisten.1.5Manfaat PenelitianManfaat  merupakan  dampak  positif  (kegunaan)  dari  hasil  karya 

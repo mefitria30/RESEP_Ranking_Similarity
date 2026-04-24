@@ -1,0 +1,39 @@
+1. Kualitas Sistem (System Quality)							
+Kemudahan (Ease of Use):		Waktu Respon (Response Time):		Keandalan (Reliability):			
+Aplikasi resep ini memiliki antarmuka yang sangat intuitif dan mudah dinavigasi, sehingga pengguna baru langsung bisa menemukan semua fitur yang diperlukan.		Setiap pencarian atau proses loading resep di aplikasi berlangsung dengan cepat dan tanpa penundaan yang mengganggu.		Aplikasi ini sangat stabil dan jarang mengalami error, gangguan teknis, atau crash, bahkan saat digunakan intensif.			
+SANGAT SETUJU	15	SANGAT SETUJU	15	SANGAT SETUJU	13		
+SETUJU	9	SETUJU	9	SETUJU	11		
+NETRAL	4	NETRAL	3	NETRAL	3		
+TIDAK SETUJU	0	TIDAK SETUJU	1	TIDAK SETUJU	1		
+SANGAT TIDAK SETUJU	0	SANGAT TIDAK SETUJU	0	SANGAT TIDAK SETUJU	0		
+							
+2. Kualitas Informasi (Information Quality)							
+Relevansi (Relevance):		Akurasi (Accuracy):		Kelengkapan (Completeness):			
+Informasi resep yang disediakan selalu lengkap, akurat, dan sesuai dengan preferensi serta tren kuliner terkini.		Informasi resep yang disediakan selalu lengkap, akurat, dan sesuai dengan preferensi serta tren kuliner terkini.		Informasi resep yang disediakan selalu lengkap, akurat, dan sesuai dengan preferensi serta tren kuliner terkini.			
+SANGAT SETUJU	12	SANGAT SETUJU	12	SANGAT SETUJU	12		
+SETUJU	12	SETUJU	12	SETUJU	12		
+NETRAL	3	NETRAL	3	NETRAL	3		
+TIDAK SETUJU	1	TIDAK SETUJU	1	TIDAK SETUJU	1		
+SANGAT TIDAK SETUJU	0	SANGAT TIDAK SETUJU	0	SANGAT TIDAK SETUJU	0		
+							
+4. Penggunaan (Use)							
+Penggunaan Sehari-hari (Daily Used Time):		Frekuensi Penggunaan (Frequency of Use):					
+Fitur apa yang paling sering Anda gunakan di aplikasi memasak?		Apakah Anda pernah menggunakan aplikasi Cookpad atau Tasty?		Apa tujuan utama Anda menggunakan aplikasi memasak?			
+,,Favorit/simpan resep	1	Cookpad	21	,,Mempelajari teknik memasak,,	1		
+,Video tutorial,	2	Tasty	5	,,Mempelajari teknik memasak,Membagikan resep,	1		
+Pencarian resep,,	4	Tidak Satupun	2	,Mendapatkan inspirasi memasak,,,	1		
+Pencarian resep,,Favorit/simpan resep	2			,Mendapatkan inspirasi memasak,Mempelajari teknik memasak,,	2		
+Pencarian resep,Video tutorial,	7			Mencari resep baru,,,,	4		
+Pencarian resep,Video tutorial,Favorit/simpan resep	12			Mencari resep baru,,Mempelajari teknik memasak,Membagikan resep,	1		
+				Mencari resep baru,Mendapatkan inspirasi memasak,,,	5		
+				Mencari resep baru,Mendapatkan inspirasi memasak,Mempelajari teknik memasak,Membagikan resep,	6		
+				Mencari resep baru,Mendapatkan inspirasi memasak,Mempelajari teknik memasak,,	7		
+							
+5. Kepuasan Pengguna (User Satisfaction)							
+Kepuasan Informasi (Information Satisfaction):				Memenuhi Harapan (Expected Quality):		Kepuasan Menyeluruh (Overall Satisfaction):	
+Bagaimana pengalaman Anda menggunakan aplikasi Cookpad?		Bagaimana pengalaman Anda menggunakan aplikasi Tasty?		Secara keseluruhan, aplikasi resep ini memenuhi atau bahkan melampaui semua ekspektasi saya dalam hal kemudahan penggunaan, kecepatan, dan kualitas informasi.		Secara keseluruhan, aplikasi resep ini memenuhi atau bahkan melampaui semua ekspektasi saya dalam hal kemudahan penggunaan, kecepatan, dan kualitas informasi.	
+SANGAT PUAS	17	SANGAT PUAS	16	SANGAT MEMENUHI	16	SANGAT MEMENUHI	16
+PUAS	6	PUAS	4	MEMENUHI	9	MEMENUHI	9
+NETRAL	5	NETRAL	7	NETRAL	3	NETRAL	3
+TIDAK PUAS	0	TIDAK PUAS	1	TIDAK MEMENUHI	0	TIDAK MEMENUHI	0
+SANGAT TIDAK PUAS	0	SANGAT TIDAK PUAS	0	SANGAT TIDAK MEMENUHI	0	SANGAT TIDAK MEMENUHI	0

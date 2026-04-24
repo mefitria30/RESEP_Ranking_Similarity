@@ -1,0 +1,32 @@
+Bagus, kamu sudah mengaitkan urgensi aplikasi dengan kelemahan aplikasi yang ada (Cookpad, Tasty). Untuk memperkuat argumen, memang perlu survey pengguna. Biasanya formatnya terdiri dari pertanyaan tertutup (Likert scale: sangat setuju → sangat tidak setuju) dan pertanyaan terbuka (open question). Berikut rancangan yang bisa langsung dipakai:
+
+---
+
+📊 Pertanyaan Tertutup (Likert Scale)
+> Jawaban: Sangat Setuju, Setuju, Netral, Tidak Setuju, Sangat Tidak Setuju
+
+1. Aplikasi resep yang ada saat ini (misalnya Cookpad, Tasty) kurang optimal digunakan ketika tidak ada koneksi internet.  
+2. Saya membutuhkan aplikasi resep yang tetap bisa diakses secara offline.  
+3. Rekomendasi resep yang ada sekarang sering hanya berdasarkan kesamaan bahan, bukan nuansa makanan.  
+4. Saya menginginkan sistem rekomendasi resep yang lebih akurat dan kontekstual (misalnya rendang lebih mirip rawon daripada bakso).  
+5. Tampilan antarmuka aplikasi resep yang ada sekarang masih kurang sederhana dan membingungkan.  
+6. Saya membutuhkan aplikasi dengan UI/UX yang mudah digunakan untuk mencari resep dengan cepat.  
+7. Aplikasi resep yang ada belum sepenuhnya mendukung kebutuhan masyarakat urban yang serba cepat.  
+8. Saya merasa aplikasi resep yang ada belum cukup membantu dalam menemukan variasi masakan sesuai bahan yang tersedia di rumah.  
+9. Saya lebih memilih aplikasi resep yang berbasis teknologi terbaru (misalnya PWA dan machine learning) dibanding aplikasi web biasa.  
+10. Saya akan menggunakan aplikasi resep baru jika terbukti lebih praktis, akurat, dan bisa diakses offline.
+
+---
+
+📝 Pertanyaan Terbuka
+1. Apa kelemahan utama aplikasi resep yang Anda gunakan saat ini?  
+2. Fitur apa yang paling Anda harapkan ada dalam aplikasi resep baru?  
+3. Bagaimana pengalaman Anda ketika mencari resep saat tidak ada koneksi internet?  
+4. Menurut Anda, seberapa penting akurasi rekomendasi resep berdasarkan bahan dan nuansa makanan?  
+5. Apa saran Anda agar aplikasi resep lebih mudah digunakan oleh masyarakat urban?
+
+---
+
+Dengan kombinasi ini, kamu bisa mengukur persepsi kuantitatif (Likert) sekaligus menggali insight kualitatif (open question). Hasilnya bisa dipakai untuk memperkuat urgensi penelitian di latar belakang dan juga sebagai data pendukung di Bab IV (hasil dan pembahasan).  
+
+Mau saya bantu buatkan format kuesioner siap pakai (Google Form style) biar langsung bisa dipublikasikan ke responden?

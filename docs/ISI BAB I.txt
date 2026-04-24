@@ -58,4 +58,90 @@ Pengumpulan data dilakukan dengan melakukan survey yang penulis lakukan lewat ap
 3.	Metode Analisis Data
 Metode yang dipakai pada penelitian ini adalah metode analisis kualitatif. Hal ini dilakukan karena hasil analisis didapat setelah melakukan survey yang dikaji berdasarkan user experience pada pengguna yang sebelumnya sudah menggunakan aplikasi rekomendasi resep, dalam penelitian ini study case berupa cookpad dan tasty. Hasilnya kemudian akan digunakan untuk melakukan pendekatan dalam membuat aplikasi rekomendasi resep yang bisa menjawab permasalahan yang terjadi.
 
+-------------------------------------------------------------------------------------------
 
+isi aplikasinya -> machine learning (cosine similarity), front end (js, PWA), back end (python, flask, api), database (csv, json)
+
+usulan judul dengan menonjolkan aspek machine learning dan pwa, yang ilmiah, "Implementasi Rekomendasi Resep dengan Cosine Similarity berbasis Progressive Web App (PWA)"
+
+----------------------------------------------------------------------------------------------
+** latar belakang 
+
+---> ini rancangan ku
+5w + 1h
+
+what -> apa itu resep? apa itu makanan? apa itu machine learning? apa itu pwa?
+when -? kapan waktu terbaik untuk menggunakan sistem ini? apa urgensi yang ada sehingga perlu menngunakan pwa dan machine learning padahal menggunakan database dan web biasa juga bisa?
+who -> siapa yang diharapkan mendapat manfaat dari sistem ini?
+where -> dimana masyrakat bisa menemukan resep yang bisa mereka pakai secara efisien sesuai dengan kemauan mereka?
+why -> mengapa manusia butuh makanan? seberapa besar urgensinya?
+how -> bagaimana cara hidup masyarkat urban sekarang? hubungan nya pada masakan dan resep?
+
+ini buat pendahuluan, akan lebih baik kalau ada landasan hukum dan teori, tapi hukum apa yang bisa dipakai yang berhubunagn dengan resep dan makanan? mungkin bisa pakai hukum yang berhubungan dengan pangan, atau hukum yang berhubungan dengan teknologi informasi.
+
+ada beberapa pengertian yang bisa dicari tau seperti pengertian resep, pengertian makanan, pengertian machine learning, pengertian pwa. perlu cari pengertian dari jurnal ilmiah dan buku, rentang tahun 2021-2025. 
+
+---> ini dari pedoman -> 1.1Latar Belakang Masalah
+    Latar  belakang  masalah berisi  uraian  urgensi  topik  penelitian; potensi dan pemanfaatan di masyarakat dan industri; uraian future prospect    development),dampak,(outcome) penelitian    dan kebaruan ilmiah.
+
+---------------------------------
+
+rancangan rumusan masalah? 
+pengertian rumusan masalah itu apa? rumusan masalah adalah pertanyaan yang ingin dijawab dalam penelitian. rumusan masalah harus spesifik, jelas, dan terukur. rumusan masalah harus mencakup aspek apa, siapa, kapan, dimana, mengapa, dan bagaimana.
+bentuknya harus pertanyaan yang nantinya bisa dijawab di bab isi!!! (3 aja rumusan masalahnya)
+
+📌 Rumusan Masalah (berdasarkan tujuan)
+1. Bagaimana cara mengimplementasikan PWA agar aplikasi tetap dapat digunakan secara offline?  
+2. Sejauh mana sistem rekomendasi dapat menampilkan hasil yang akurat berdasarkan bahan dan nuansa makanan?  
+3. Bagaimana merancang UI/UX aplikasi agar pengguna mudah mencari dan memahami rekomendasi resep?
+
+
+1. bagaimana cara membuat aplikasi sistem rekomendasi yang berbasis PWA dan dapat digunakan secara offline?
+2. bagaimana cara membuat aplikasi sistem rekomendasi yang akurat dalam memberikan hasil rekomendasi sesuai kemiripan bahan dan nuansa makanan?
+3. bagaimana cara membuat aplikasi sistem rekomendasi yang ui/ux nya mudah dan nyaman digunakan oleh user? 
+
+
+---------------------------------------------------------------------------------------------------------------
+
+batasan masalah
+
+Batasan Masalah Aplikasi Rekomendasi Resep
+Data sumber terbatas  
+Rekomendasi hanya berdasarkan dataset recipe_vectors.pkl yang sudah diproses. Resep baru di luar dataset tidak bisa otomatis masuk.
+
+Fokus pada atribut tertentu  
+Sistem hanya menampilkan nama resep, kategori, waktu masak, daftar bahan, dan skor similarity. Informasi lain seperti cara memasak, jumlah porsi, atau nilai gizi belum ditampilkan.
+
+Metode similarity sederhana  
+Perhitungan kemiripan menggunakan kombinasi cosine similarity antara vector bahan dan vector teks. Belum ada metode lain seperti deep learning atau collaborative filtering.
+
+Vector bahan global  
+Saat ini vector_bahan masih berupa embedding global per resep, bukan per bahan. Jadi detail per bahan belum bisa diberi skor numerik yang bermakna.
+
+UI berbasis web sederhana  
+Antarmuka menggunakan Flask + Bootstrap. Fitur interaktif seperti favorit, share, atau filter lanjutan belum tersedia.
+
+Cetak resep dasar  
+Fitur cetak hanya menampilkan detail resep (judul, kategori, durasi, bahan). Belum ada format cetak khusus seperti tabel nutrisi, gambar resep, atau branding.
+
+1. sistem akan menggunakan dataset csv yang didalamnya terdapat 100 data resep sebagai sumber utama dalam pengolahan data rekomendasi. tidak ada opsi penambahan data resep baru melalui sistem.
+2. atribut yang ada hanya id_resep, nama_resep, daftar_bahan, waktu_masak, kategori, list_bahan, vector_bahan,vector_text. pemilihan atribut ini dimaksudkan untuk membuat sistem agar lebih ringan dan memudahkan dalam proses pembuatan logika machine learning. bahan akan diubah menjadi vector untuk cosine similarity.
+3. UI akan berfokus langsung ke bar search. user bisa langsung memamsukkan nama resep. sistem akan memberikan rekomendasi resep yang memiliki bahan atau nuansa makanan yang mirip.
+4. hasil rekomnedasi akan menampilkan 9 list rekomneasi dengan bar keakuratan,  nama resep, kategori dan list bahannya.
+5. tombol cetak akan disediakan.
+6. sistem akan bisa berjalan penuh secara offline sehingga user bisa melakukan proses pencarian serta user bisa menginstall sistem seperti aplikasi mobile native tanpa perlu akses ke play store.
+
+-----------------------------------------------------------------------------------------------
+
+tujuan penelitian
+
+Prinsip Tujuan Penelitian yang Benar
+- Selaras dengan rumusan masalah → setiap pertanyaan penelitian harus dijawab oleh tujuan.  
+- Terukur → bisa diuji dengan metode penelitian (misalnya uji akurasi sistem, uji usability UI/UX).  
+- Spesifik → tidak terlalu luas, fokus pada aspek inti aplikasi.  
+- Realistis → sesuai dengan waktu, sumber
+
+kenapa aplikasi ini dibuat?
+1. goals utamanya kan supaya user bisa pakai aplikasi tanpa harus terkoneksi dengan internet, PWA-nya harus bisa berfungsi dengan baik.
+2. seberapa akurat sistem dalam menunjukan rekomenasinya, bukan hanya sebatas kecocokan bahan tapi juga nuansa makanannya, misalnya rendang daging sapi, satu nuansa dan satu bahan dengan rawan (akuratnya misalnya 70%) dibanding bakso daging sapi, satu bahan tapi tidak satu nuansa (akuraynya misalnya 30%)
+3. ui/ux dari aplikasi sehingga user bisa mencari resep dengan mudah

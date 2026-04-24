@@ -1,0 +1,41 @@
+Hubungan landasan hukum dengan penelitian atau aplikasi yang kamu buat adalah untuk menunjukkan bahwa sistem yang dikembangkan tidak berdiri sendiri, melainkan sejalan dengan aturan yang berlaku di masyarakat. Jadi, landasan hukum berfungsi sebagai payung legal dan justifikasi akademik bahwa penelitianmu relevan, sah, dan memiliki kontribusi nyata.  
+
+🔗 Hubungan Landasan Hukum dengan Penelitian
+1. UU No. 18 Tahun 2012 tentang Pangan  
+   - Menjamin ketersediaan, keamanan, dan kemudahan akses pangan.  
+   - Aplikasi resep berbasis PWA mendukung masyarakat dalam mengakses informasi pangan (resep, bahan, cara pengolahan) secara mudah dan efisien, bahkan tanpa internet.  
+   - Hubungannya: penelitian ini membantu mewujudkan amanat undang-undang tentang ketersediaan informasi pangan.
+
+2. UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (ITE)  
+   - Mengatur pemanfaatan teknologi informasi untuk mendukung aktivitas masyarakat.  
+   - Aplikasi berbasis PWA dan machine learning adalah bentuk pemanfaatan TI untuk kebutuhan sehari-hari.  
+   - Hubungannya: penelitian ini sesuai dengan regulasi pemanfaatan TI secara sah dan etis.
+
+3. Peraturan Pemerintah tentang Perlindungan Konsumen dan Data  
+   - Menjamin keamanan data pengguna aplikasi.  
+   - Hubungannya: penelitian ini harus memperhatikan aspek privasi dan keamanan data saat pengguna mengakses aplikasi.
+
+---
+
+📌 Intinya
+- Landasan hukum mengikat penelitian dengan regulasi nasional, sehingga aplikasi resep PWA bukan hanya inovasi teknologi, tetapi juga mendukung kebijakan pemerintah di bidang pangan dan teknologi informasi.  
+- Dengan mencantumkan landasan hukum, penelitianmu akan terlihat lebih kuat secara akademis dan lebih relevan secara praktis.  
+
+Mau saya buatkan contoh paragraf narasi utuh yang menghubungkan latar belakang dengan landasan hukum, supaya langsung bisa dipakai di Bab I?
+
+permenkes no 41 tahun 2014 -> tentang gizi seimbang
+
+uu no 19 tahun 2013
+uu no 7 tahun 2014
+
+
+---------------------------
+
+kenapa aplikasi ini dibuat?
+1. goals utamanya kan supaya user bisa pakai aplikasi tanpa harus terkoneksi dengan internet, PWA-nya harus bisa berfungsi dengan baik.
+2. seberapa akurat sistem dalam menunjukan rekomenasinya, bukan hanya sebatas kecocokan bahan tapi juga nuansa makanannya, misalnya rendang daging sapi, satu nuansa dan satu bahan dengan rawan (akuratnya misalnya 70%) dibanding bakso daging sapi, satu bahan tapi tidak satu nuansa (akuraynya misalnya 30%)
+3. ui/ux dari aplikasi sehingga user bisa mencari resep dengan mudah
+
+tapi urgensi nya harus juga berdasarkan kelemahan aplikasi yang sudah ada skerang, aku pake cookpad dan tasty sebagai study case, sekarang perlu buat form survey untuk memperkuat argymen, perlu ada 10 pertanyaan sangat setuju, setuju, netral, tidak setuju, sangat tidak setuju
+
+dan 5 pertanyaan open question
