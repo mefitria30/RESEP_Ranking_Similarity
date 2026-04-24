@@ -14,6 +14,8 @@ logging.basicConfig(
 )
 
 app = Flask(__name__)
+
+# Load dataset (disarankan JSON agar lebih aman, tapi sementara masih pickle)
 df = pd.read_pickle("recipe_vectors.pkl")
 
 def ranking_similarity(nama_resep, top_n=9, alpha=0.7):
@@ -74,6 +76,12 @@ def recommend():
     hasil = ranking_similarity(nama_resep, top_n=9)
     logging.info(f"Resep '{nama_resep}' direkomendasikan dengan {len(hasil)} hasil.")
     return render_template("result.html", resep=nama_resep, hasil=hasil.to_dict(orient="records"))
+
+# Tambahkan route offline untuk fallback PWA
+@app.route("/offline.html")
+def offline_html():
+    logging.info("Halaman offline ditampilkan.")
+    return render_template("offline.html")
 
 if __name__ == "__main__":
     logging.info("Aplikasi Flask dimulai...")
