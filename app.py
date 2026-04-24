@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, send_from_directory
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 import logging
@@ -82,6 +82,10 @@ def recommend():
 def offline_html():
     logging.info("Halaman offline ditampilkan.")
     return render_template("offline.html")
+
+@app.route("/service-worker.js")
+def sw():
+    return app.send_static_file("service-worker.js")
 
 if __name__ == "__main__":
     logging.info("Aplikasi Flask dimulai...")
