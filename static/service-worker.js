@@ -33,33 +33,17 @@ self.addEventListener( "install", event =>
 // Fetch: serve dari cache, fallback ke offline.html
 self.addEventListener( "fetch", event =>
 {
-    const requestURL = new URL( event.request.url );
-
     event.respondWith(
-        caches.match( event.request, { ignoreSearch: true } ).then( response =>
+        caches.match( event.request ).then( response =>
         {
-            if ( response )
+            return response || fetch( event.request ).catch( () =>
             {
-                console.log( "✅ Serve from cache:", requestURL.pathname );
-                return response;
-            }
-            return fetch( event.request ).catch( () =>
-            {
-                console.log( "❌ Offline fallback:", requestURL.pathname );
-
-                // Paksa ambil dari cache untuk file inti
-                if ( requestURL.pathname === "/static/recommend.js" )
+                if ( event.request.mode === "navigate" )
                 {
-                    return caches.match( "/static/recommend.js" );
+                    return caches.match( "/offline.html" );
                 }
-                if ( requestURL.pathname === "/static/recipe_vectors.json" )
-                {
-                    return caches.match( "/static/recipe_vectors.json" );
-                }
-
-                // Default fallback
-                return caches.match( "/offline.html" );
             } );
         } )
     );
 } );
+
