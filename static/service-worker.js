@@ -32,28 +32,26 @@ self.addEventListener( "install", event =>
 // Fetch: serve dari cache, fallback ke offline.html
 self.addEventListener( "fetch", event =>
 {
-    console.log( "Fetch request:", event.request.url );
+    const requestURL = new URL( event.request.url );
 
     event.respondWith(
         caches.match( event.request, { ignoreSearch: true } ).then( response =>
         {
             if ( response )
             {
-                console.log( "✅ Serve from cache:", event.request.url );
+                console.log( "✅ Serve from cache:", requestURL.pathname );
                 return response;
             }
             return fetch( event.request ).catch( () =>
             {
-                console.log( "❌ Offline fallback:", event.request.url );
+                console.log( "❌ Offline fallback:", requestURL.pathname );
 
-                // Khusus recommend.js, paksa ambil dari cache
-                if ( event.request.url.includes( "/static/recommend.js" ) )
+                // Paksa ambil dari cache untuk file inti
+                if ( requestURL.pathname === "/static/recommend.js" )
                 {
                     return caches.match( "/static/recommend.js" );
                 }
-
-                // Khusus recipe_vectors.json, paksa ambil dari cache
-                if ( event.request.url.includes( "/static/recipe_vectors.json" ) )
+                if ( requestURL.pathname === "/static/recipe_vectors.json" )
                 {
                     return caches.match( "/static/recipe_vectors.json" );
                 }
@@ -64,4 +62,3 @@ self.addEventListener( "fetch", event =>
         } )
     );
 } );
-
