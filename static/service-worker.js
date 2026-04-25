@@ -45,6 +45,11 @@ self.addEventListener( "fetch", event =>
             return fetch( event.request ).catch( () =>
             {
                 console.log( "❌ Offline fallback:", event.request.url );
+                // khusus recommend.js, jangan balikin offline.html
+                if ( event.request.url.endsWith( "/static/recommend.js" ) )
+                {
+                    return caches.match( "/static/recommend.js" );
+                }
                 return caches.match( "/offline.html" );
             } );
         } )
