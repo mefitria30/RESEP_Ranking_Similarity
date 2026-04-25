@@ -1289,3 +1289,6 @@
 2026-04-25 08:52:31,428 [INFO]  * Debugger PIN: 145-962-512
 2026-04-25 09:22:15,198 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
 2026-04-25 09:22:15,880 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-25 09:22:19,542 [INFO] Aplikasi Flask dimulai...
+2026-04-25 09:22:19,591 [WARNING]  * Debugger is active!
+2026-04-25 09:22:19,607 [INFO]  * Debugger PIN: 145-962-512
