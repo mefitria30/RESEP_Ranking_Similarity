@@ -1278,3 +1278,7 @@
 2026-04-25 07:39:08,930 [INFO] 127.0.0.1 - - [25/Apr/2026 07:39:08] "[33mGET /static/assets/bootstrap.min.css.map HTTP/1.1[0m" 404 -
 2026-04-25 07:45:16,561 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\app.py', reloading
 2026-04-25 07:45:16,566 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
+2026-04-25 07:45:17,278 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-25 07:45:21,158 [INFO] Aplikasi Flask dimulai...
+2026-04-25 07:45:21,189 [WARNING]  * Debugger is active!
+2026-04-25 07:45:21,201 [INFO]  * Debugger PIN: 145-962-512
