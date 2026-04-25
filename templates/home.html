@@ -44,13 +44,14 @@
     <!-- Search Card -->
     <div class="card shadow-lg search-card">
         <div class="card-body">
-            <form id="searchForm" class="d-flex gap-2">
+            <form id="searchForm" method="POST" action="/" class="d-flex gap-2">
                 <input type="text" id="nama_resep" class="form-control" name="nama_resep"
                     placeholder="Masukkan nama resep..." required>
                 <button type="submit" class="btn btn-success btn-lg rounded-pill" aria-label="Cari resep">
                     🔍 Cari
                 </button>
             </form>
+
 
             <div id="hasilRekomendasi" class="mt-4"></div>
         </div>
