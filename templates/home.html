@@ -15,7 +15,6 @@
                 .then( reg => console.log( "Service Worker registered:", reg ) )
                 .catch( err => console.log( "Service Worker failed:", err ) );
         }
-
     </script>
     <style>
         body {
@@ -45,29 +44,61 @@
     <!-- Search Card -->
     <div class="card shadow-lg search-card">
         <div class="card-body">
-            <form method="POST" class="d-flex gap-2">
+            <form id="searchForm" class="d-flex gap-2">
                 <input type="text" id="nama_resep" class="form-control" name="nama_resep"
                     placeholder="Masukkan nama resep..." required>
                 <button type="submit" class="btn btn-success btn-lg rounded-pill" aria-label="Cari resep">
                     🔍 Cari
                 </button>
-
             </form>
 
-            {% if error %}
-            <div class="alert alert-danger mt-3">{{ error }}</div>
-            {% endif %}
+            <div id="hasilRekomendasi" class="mt-4"></div>
         </div>
     </div>
 
     <!-- jQuery + jQuery UI -->
     <script src="/static/assets/jquery-3.6.0.min.js"></script>
     <script src="/static/assets/jquery-ui.js"></script>
+
+    <!-- Autocomplete list dari Flask -->
     <script>
         var resepList = {{ resep_list| tojson }};
         $( "#nama_resep" ).autocomplete( {
             source: resepList,
             minLength: 2
+        } );
+    </script>
+
+    <!-- Load recommend.js -->
+    <script src="/static/recommend.js"></script>
+    <script>
+        // Tangkap submit form
+        document.getElementById( "searchForm" ).addEventListener( "submit", function ( e )
+        {
+            e.preventDefault();
+            const namaResep = document.getElementById( "nama_resep" ).value;
+
+            // Panggil fungsi cariResep dari recommend.js
+            cariResep( namaResep )
+                .then( rekomendasi =>
+                {
+                    const html = rekomendasi.map( r => `
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">${ r.nama }</h5>
+                                <p class="card-text">Kategori: ${ r.kategori }</p>
+                                <p class="card-text">Waktu: ${ r.waktu } menit</p>
+                                <p class="card-text">Similarity: ${ ( r.similarity * 100 ).toFixed( 1 ) }%</p>
+                            </div>
+                        </div>
+                    `).join( "" );
+                    document.getElementById( "hasilRekomendasi" ).innerHTML = html;
+                } )
+                .catch( err =>
+                {
+                    document.getElementById( "hasilRekomendasi" ).innerHTML =
+                        `<div class="alert alert-danger">Resep tidak ditemukan: ${ err.message }</div>`;
+                } );
         } );
     </script>
 </body>
