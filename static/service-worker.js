@@ -45,13 +45,23 @@ self.addEventListener( "fetch", event =>
             return fetch( event.request ).catch( () =>
             {
                 console.log( "❌ Offline fallback:", event.request.url );
-                // khusus recommend.js, jangan balikin offline.html
-                if ( event.request.url.endsWith( "/static/recommend.js" ) )
+
+                // Khusus recommend.js, paksa ambil dari cache
+                if ( event.request.url.includes( "/static/recommend.js" ) )
                 {
                     return caches.match( "/static/recommend.js" );
                 }
+
+                // Khusus recipe_vectors.json, paksa ambil dari cache
+                if ( event.request.url.includes( "/static/recipe_vectors.json" ) )
+                {
+                    return caches.match( "/static/recipe_vectors.json" );
+                }
+
+                // Default fallback
                 return caches.match( "/offline.html" );
             } );
         } )
     );
 } );
+
