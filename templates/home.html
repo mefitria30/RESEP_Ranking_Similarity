@@ -44,14 +44,13 @@
     <!-- Search Card -->
     <div class="card shadow-lg search-card">
         <div class="card-body">
-            <form id="searchForm" method="POST" action="/" class="d-flex gap-2">
+            <form id="searchForm" class="d-flex gap-2">
                 <input type="text" id="nama_resep" class="form-control" name="nama_resep"
                     placeholder="Masukkan nama resep..." required>
                 <button type="submit" class="btn btn-success btn-lg rounded-pill" aria-label="Cari resep">
                     🔍 Cari
                 </button>
             </form>
-
 
             <div id="hasilRekomendasi" class="mt-4"></div>
         </div>
@@ -73,29 +72,27 @@
     <!-- Load recommend.js -->
     <script src="/static/recommend.js"></script>
     <script>
-        // Tangkap submit form
-
         document.getElementById( "searchForm" ).addEventListener( "submit", function ( e )
         {
+            e.preventDefault(); // cegah submit default
             const namaResep = document.getElementById( "nama_resep" ).value;
 
             if ( !navigator.onLine )
             {
                 // OFFLINE → pakai JS
-                e.preventDefault();
                 cariResep( namaResep )
                     .then( rekomendasi =>
                     {
                         const html = rekomendasi.map( r => `
-                <div class="card mb-3">
-                    <div class="card-body">
-                        <h5 class="card-title">${ r.nama_resep }</h5>
-                        <p class="card-text">Kategori: ${ r.kategori }</p>
-                        <p class="card-text">Waktu: ${ r.waktu_masak } menit</p>
-                        <p class="card-text">Similarity: ${ ( r.similarity * 100 ).toFixed( 1 ) }%</p>
-                    </div>
-                </div>
-                `).join( "" );
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">${ r.nama_resep }</h5>
+                                    <p class="card-text">Kategori: ${ r.kategori }</p>
+                                    <p class="card-text">Waktu: ${ r.waktu_masak } menit</p>
+                                    <p class="card-text">Similarity: ${ ( r.similarity * 100 ).toFixed( 1 ) }%</p>
+                                </div>
+                            </div>
+                        `).join( "" );
                         document.getElementById( "hasilRekomendasi" ).innerHTML = html;
                     } )
                     .catch( err =>
@@ -105,11 +102,10 @@
                     } );
             } else
             {
-                // ONLINE → biarkan form submit ke Flask
-                // jangan preventDefault, biar server render result.html
+                // ONLINE → arahkan manual ke Flask
+                window.location.href = "/recommend?nama_resep=" + encodeURIComponent( namaResep );
             }
         } );
-
     </script>
 </body>
 
