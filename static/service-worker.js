@@ -19,14 +19,12 @@ self.addEventListener( "install", event =>
     event.waitUntil(
         caches.open( CACHE_NAME ).then( cache =>
         {
-            return Promise.all(
-                urlsToCache.map( url =>
-                    cache.add( url ).catch( err => console.error( "❌ Gagal cache:", url, err ) )
-                )
-            );
+            return cache.add( "/static/recommend.js" )
+                .catch( err => console.error( "❌ Gagal cache recommend.js:", err ) );
         } )
     );
 } );
+
 
 
 self.addEventListener( "fetch", event =>
