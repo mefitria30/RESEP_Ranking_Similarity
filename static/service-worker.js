@@ -1,6 +1,6 @@
-const CACHE_NAME = "resep-cache-v11";
+const CACHE_NAME = "resep-cache-v12";
 const urlsToCache = [
-    "/",                // halaman utama (home + result)
+    "/",                // halaman utama
     "/offline.html",    // fallback offline
     "/static/manifest.json",
     "/static/icons/icon-192.png",
@@ -14,19 +14,22 @@ const urlsToCache = [
     "/static/recommend.js"
 ];
 
+// Install: cache semua file
 self.addEventListener( "install", event =>
 {
     event.waitUntil(
         caches.open( CACHE_NAME ).then( cache =>
         {
-            return cache.add( "/static/recommend.js" )
-                .catch( err => console.error( "❌ Gagal cache recommend.js:", err ) );
+            return Promise.all(
+                urlsToCache.map( url =>
+                    cache.add( url ).catch( err => console.error( "❌ Gagal cache:", url, err ) )
+                )
+            );
         } )
     );
 } );
 
-
-
+// Fetch: serve dari cache, fallback ke offline.html
 self.addEventListener( "fetch", event =>
 {
     event.respondWith(
@@ -36,13 +39,3 @@ self.addEventListener( "fetch", event =>
         } )
     );
 } );
-
-caches.open( CACHE_NAME ).then( cache =>
-{
-    return Promise.all(
-        urlsToCache.map( url =>
-            cache.add( url ).catch( err => console.error( "Gagal cache:", url, err ) )
-        )
-    );
-} );
-
