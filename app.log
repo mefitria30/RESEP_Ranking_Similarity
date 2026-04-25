@@ -1210,3 +1210,71 @@
 2026-04-25 06:52:39,473 [INFO] 127.0.0.1 - - [25/Apr/2026 06:52:39] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
 2026-04-25 06:52:39,478 [INFO] 127.0.0.1 - - [25/Apr/2026 06:52:39] "[36mGET /static/assets/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
 2026-04-25 06:52:39,482 [INFO] 127.0.0.1 - - [25/Apr/2026 06:52:39] "[36mGET /static/assets/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-04-25 06:56:59,882 [INFO] 127.0.0.1 - - [25/Apr/2026 06:56:59] "GET /static/assets/jquery-ui.css HTTP/1.1" 200 -
+2026-04-25 06:56:59,887 [INFO] 127.0.0.1 - - [25/Apr/2026 06:56:59] "GET /static/assets/jquery-3.6.0.min.js HTTP/1.1" 200 -
+2026-04-25 06:56:59,891 [INFO] 127.0.0.1 - - [25/Apr/2026 06:56:59] "GET /static/assets/jquery-ui.js HTTP/1.1" 200 -
+2026-04-25 06:57:00,062 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-25 06:57:00,775 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /service-worker.js HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,853 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "GET / HTTP/1.1" 200 -
+2026-04-25 06:57:00,861 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 06:57:00,871 [INFO] Halaman offline ditampilkan.
+2026-04-25 06:57:00,875 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 06:57:00,882 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,890 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,897 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,907 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,912 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/assets/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,932 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/assets/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,935 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/assets/jquery-3.6.0.min.js HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,942 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/assets/jquery-ui.css HTTP/1.1[0m" 304 -
+2026-04-25 06:57:00,949 [INFO] 127.0.0.1 - - [25/Apr/2026 06:57:00] "[36mGET /static/assets/jquery-ui.js HTTP/1.1[0m" 304 -
+2026-04-25 06:59:22,117 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:22] "[36mGET /static/assets/jquery-ui.css HTTP/1.1[0m" 304 -
+2026-04-25 06:59:22,123 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:22] "[36mGET /static/assets/jquery-3.6.0.min.js HTTP/1.1[0m" 304 -
+2026-04-25 06:59:22,128 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:22] "[36mGET /static/assets/jquery-ui.js HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,089 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "GET /service-worker.js HTTP/1.1" 200 -
+2026-04-25 06:59:23,265 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/assets/jquery-3.6.0.min.js HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,267 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/assets/jquery-ui.css HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,271 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/assets/jquery-ui.js HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,285 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "GET / HTTP/1.1" 200 -
+2026-04-25 06:59:23,291 [INFO] Halaman offline ditampilkan.
+2026-04-25 06:59:23,301 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 06:59:23,310 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,321 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,322 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,334 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,343 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/assets/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-04-25 06:59:23,348 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:23] "[36mGET /static/assets/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-04-25 06:59:27,290 [INFO] Ranking selesai untuk resep 'bolu pisang kukus mini', top 9 rekomendasi dihasilkan.
+2026-04-25 06:59:27,293 [INFO] Resep 'bolu pisang kukus mini' ditemukan, menampilkan hasil rekomendasi.
+2026-04-25 06:59:27,298 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:27] "POST / HTTP/1.1" 200 -
+2026-04-25 06:59:27,402 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:27] "[36mGET /static/recommend.js HTTP/1.1[0m" 304 -
+2026-04-25 06:59:28,327 [INFO] 127.0.0.1 - - [25/Apr/2026 06:59:28] "[36mGET /service-worker.js HTTP/1.1[0m" 304 -
+2026-04-25 07:00:28,417 [INFO] 127.0.0.1 - - [25/Apr/2026 07:00:28] "[33mGET /result HTTP/1.1[0m" 404 -
+2026-04-25 07:00:29,447 [INFO] 127.0.0.1 - - [25/Apr/2026 07:00:29] "[36mGET /service-worker.js HTTP/1.1[0m" 304 -
+2026-04-25 07:13:09,233 [INFO] 127.0.0.1 - - [25/Apr/2026 07:13:09] "[36mGET /service-worker.js HTTP/1.1[0m" 304 -
+2026-04-25 07:25:19,991 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\convert_to_json.py', reloading
+2026-04-25 07:25:21,015 [INFO]  * Restarting with watchdog (windowsapi)
+2026-04-25 07:25:24,912 [INFO] Aplikasi Flask dimulai...
+2026-04-25 07:25:24,951 [WARNING]  * Debugger is active!
+2026-04-25 07:25:24,964 [INFO]  * Debugger PIN: 145-962-512
+2026-04-25 07:38:54,464 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "GET /service-worker.js HTTP/1.1" 200 -
+2026-04-25 07:38:54,555 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "GET / HTTP/1.1" 200 -
+2026-04-25 07:38:54,570 [INFO] Halaman offline ditampilkan.
+2026-04-25 07:38:54,575 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "GET /offline.html HTTP/1.1" 200 -
+2026-04-25 07:38:54,579 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,583 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/icons/icon-192.png HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,593 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/icons/icon-512.png HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,602 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/recipe_vectors.json HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,605 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/assets/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,609 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/assets/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,621 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/assets/jquery-3.6.0.min.js HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,625 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/assets/jquery-ui.css HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,632 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/assets/jquery-ui.js HTTP/1.1[0m" 304 -
+2026-04-25 07:38:54,636 [INFO] 127.0.0.1 - - [25/Apr/2026 07:38:54] "[36mGET /static/recommend.js HTTP/1.1[0m" 304 -
+2026-04-25 07:39:00,275 [INFO] Ranking selesai untuk resep 'bolu pisang kukus mini', top 9 rekomendasi dihasilkan.
+2026-04-25 07:39:00,277 [INFO] Resep 'bolu pisang kukus mini' ditemukan, menampilkan hasil rekomendasi.
+2026-04-25 07:39:00,304 [INFO] 127.0.0.1 - - [25/Apr/2026 07:39:00] "POST / HTTP/1.1" 200 -
+2026-04-25 07:39:01,442 [INFO] 127.0.0.1 - - [25/Apr/2026 07:39:01] "[36mGET /service-worker.js HTTP/1.1[0m" 304 -
+2026-04-25 07:39:08,930 [INFO] 127.0.0.1 - - [25/Apr/2026 07:39:08] "[33mGET /static/assets/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2026-04-25 07:45:16,561 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\app.py', reloading
+2026-04-25 07:45:16,566 [INFO]  * Detected change in 'D:\\E-LEARNING\\LATIHAN_RESEP_Ranking_Similarity_v4\\static\\assets\\bootstrap-5.0.2-dist.zip', reloading
