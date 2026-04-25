@@ -73,33 +73,42 @@
     <script src="/static/recommend.js"></script>
     <script>
         // Tangkap submit form
+
         document.getElementById( "searchForm" ).addEventListener( "submit", function ( e )
         {
-            e.preventDefault();
             const namaResep = document.getElementById( "nama_resep" ).value;
 
-            // Panggil fungsi cariResep dari recommend.js
-            cariResep( namaResep )
-                .then( rekomendasi =>
-                {
-                    const html = rekomendasi.map( r => `
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h5 class="card-title">${ r.nama }</h5>
-                                <p class="card-text">Kategori: ${ r.kategori }</p>
-                                <p class="card-text">Waktu: ${ r.waktu } menit</p>
-                                <p class="card-text">Similarity: ${ ( r.similarity * 100 ).toFixed( 1 ) }%</p>
-                            </div>
-                        </div>
-                    `).join( "" );
-                    document.getElementById( "hasilRekomendasi" ).innerHTML = html;
-                } )
-                .catch( err =>
-                {
-                    document.getElementById( "hasilRekomendasi" ).innerHTML =
-                        `<div class="alert alert-danger">Resep tidak ditemukan: ${ err.message }</div>`;
-                } );
+            if ( !navigator.onLine )
+            {
+                // OFFLINE → pakai JS
+                e.preventDefault();
+                cariResep( namaResep )
+                    .then( rekomendasi =>
+                    {
+                        const html = rekomendasi.map( r => `
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">${ r.nama_resep }</h5>
+                        <p class="card-text">Kategori: ${ r.kategori }</p>
+                        <p class="card-text">Waktu: ${ r.waktu_masak } menit</p>
+                        <p class="card-text">Similarity: ${ ( r.similarity * 100 ).toFixed( 1 ) }%</p>
+                    </div>
+                </div>
+                `).join( "" );
+                        document.getElementById( "hasilRekomendasi" ).innerHTML = html;
+                    } )
+                    .catch( err =>
+                    {
+                        document.getElementById( "hasilRekomendasi" ).innerHTML =
+                            `<div class="alert alert-danger">Resep tidak ditemukan: ${ err.message }</div>`;
+                    } );
+            } else
+            {
+                // ONLINE → biarkan form submit ke Flask
+                // jangan preventDefault, biar server render result.html
+            }
         } );
+
     </script>
 </body>
 
