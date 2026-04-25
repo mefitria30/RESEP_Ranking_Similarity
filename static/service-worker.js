@@ -1,7 +1,7 @@
-const CACHE_NAME = "resep-cache-v12";
+const CACHE_NAME = "resep-cache-v13";
 const urlsToCache = [
-    "/",                // halaman utama
-    "/offline.html",    // fallback offline
+    "/",
+    "/offline.html",
     "/static/manifest.json",
     "/static/icons/icon-192.png",
     "/static/icons/icon-512.png",
@@ -32,10 +32,21 @@ self.addEventListener( "install", event =>
 // Fetch: serve dari cache, fallback ke offline.html
 self.addEventListener( "fetch", event =>
 {
+    console.log( "Fetch request:", event.request.url );
+
     event.respondWith(
-        caches.match( event.request ).then( response =>
+        caches.match( event.request, { ignoreSearch: true } ).then( response =>
         {
-            return response || fetch( event.request ).catch( () => caches.match( "/offline.html" ) );
+            if ( response )
+            {
+                console.log( "✅ Serve from cache:", event.request.url );
+                return response;
+            }
+            return fetch( event.request ).catch( () =>
+            {
+                console.log( "❌ Offline fallback:", event.request.url );
+                return caches.match( "/offline.html" );
+            } );
         } )
     );
 } );
